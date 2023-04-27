@@ -7,18 +7,18 @@ Os dados utilizados neste projeto foram obtidos a partir de conjuntos de dados a
 ## Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-*Python: para análise de dados
-*Pandas: para manipulação de dados
-*{Linguagem x}: para {x}
-*React: para desenvolvimento front-end
+* Python: para análise de dados
+* Pandas: para manipulação de dados
+* {Linguagem x}: para {x}
+* React: para desenvolvimento front-end
 
 ## Como Contribuir
 Se você quiser contribuir para este projeto, siga estas etapas:
 
 1. Faça um fork deste repositório
-2. Crie uma branch com suas alterações (git checkout -b minha-branch)
-3. Faça commit de suas alterações (git commit -am 'Adicionei uma análise de gastos do último trimestre')
-4. Faça push para a sua branch (git push origin minha-branch)
+2. Crie uma branch com suas alterações (**git checkout -b minha-branch**)
+3. Faça commit de suas alterações (**git commit -am 'Adicionei uma análise de gastos do último trimestre'**)
+4. Faça push para a sua branch (**git push origin minha-branch**)
 5. Abra um Pull Request
 
 

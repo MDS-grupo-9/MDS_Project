@@ -9,7 +9,7 @@ import streamlit as st
 #       4. PERFIL DA POPULAÇÃO QUE TEM ACESSO A INTERNET POR RA
 
 # IMPORTANDO DADOS
-Bens_Duraveis_DF = pd.read_excel('C:/Users/yvesg/Documents/GitHub/MDS_Project/Site/bens-duraveis.xlsx')
+Bens_Duraveis_DF = pd.read_excel('Site/bens-duraveis.xlsx')
 
 # ---------------------------------------------------------------------------- HEADER ---------------------------------------------------------------------------- # 
 

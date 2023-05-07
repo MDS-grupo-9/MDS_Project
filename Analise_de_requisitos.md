@@ -25,4 +25,22 @@ Há, atualmente, diversas métodos de classificação de requisitos que se pode 
 - **Requisitos Funcionais:** requisitos responsáveis por descrever o comportamento do sistema, em outras palavras, descreve tudo o que tem que ser feito pelo sistema, tato suas ações para cada entrada, como o que deverá conter em suas saídas.
 - **Requisitos Não Funcionais:** são responsáveis por expressar **como** que cada funcionalidade deverá ser feita. Em geral, se relacionam com padrões de qualidade como confiabilidade, perfomance, robustez, etc.
 
-## Riscos
+## Prioridades
+
+# Requisitos do projeto
+
+## Requisitos Funcionais
+
+| Identificador                 | Requisito                                                            | Prioridade |
+| :---------------------------- | :------------------------------------------------------------------- |  :-------- |
+| RF01                          |                                                                      |            |
+| RF02                          |                                                                      |            |
+| RF03                          |                                                                      |            |
+
+## Requisitos Não Funcionais
+
+| Identificador                 | Requisito                                                            | Prioridade |
+| :---------------------------- | :------------------------------------------------------------------- |  :-------- |
+| RNF01                         |                                                                      |            |
+| RNF02                         |                                                                      |            |
+| RNF03                         |                                                                      |            |

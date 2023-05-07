@@ -9,7 +9,7 @@
 body {
     background-color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    padding: 0 10%;
+    padding: 0 20%;
 }
 /*---header---*/
 header {
@@ -63,14 +63,29 @@ nav a {
 }
 
 .descricao_texto {
-    background-image:url("../images/fundo_unb.png"); /*AOPACIDADE*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 100%;
+    position: relative;
+    z-index: 5;
+    height: 100%;
+    color: #000;
     padding: 30px 0;
     justify-self: start;
     width: 100%;
-}
+  }
+
+  .descricao_texto .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../images/fundo_unb.png) center center;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+
+  }
+
 
 .descricao_texto h1 {
     font-size: 4em;
@@ -101,13 +116,14 @@ nav a {
 }
 
 .desenvolvedores {
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto;
-    padding: 50px 0;
 }
 
 .desenvolvedores p {
+    margin: 40px 0 ;
     grid-column-start: 3;
     text-align: center;
     font-size: 2em;
@@ -115,6 +131,32 @@ nav a {
 
 .desenvolvedores img {
     grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
     width: 200px;
     height: 200px;
+}
+
+.prof {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto ;
+    justify-self: center;
+    margin-top: 80px;
+}
+
+.prof p {
+    justify-self: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.prof img {
+    justify-self: center;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    margin: 80px 0;
 }

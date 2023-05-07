@@ -1,0 +1,47 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --preto-principal: #000000;
+    --azul-unb: #023E7A;
+    --verde-unb: #008C44;
+    --fonte-principal: 'Inter';
+}
+
+section {
+    margin-top: 180px;
+    color: var(--branco-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+section h1 {
+    font-size: 70px;
+    text-align: center;
+    align-self: center;
+    padding: 10px 30px;
+    background-color: var(--azul-unb);
+    border-radius: 10px;
+}
+
+section h2{
+    margin: 40px 0;
+    font-size: 50px;
+    background-color: var(--azul-unb);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+section img {
+    height: 500px;
+    width: 1000px;
+    padding-left: 5%;
+}
+
+section p {
+    color: var(--preto-principal);
+    padding: 0 5%;
+    font-size: 18px;
+    text-align: left;
+    text-justify: distribute;
+}

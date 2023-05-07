@@ -1,0 +1,120 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --preto-principal: #000000;
+    --azul-unb: #023E7A;
+    --verde-unb: #008C44;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    padding: 0 10%;
+}
+/*---header---*/
+header {
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--branco-principal);
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    grid-template-rows: auto 80% auto;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px solid var(--azul-unb);
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    flex: 0 0 auto;
+}
+
+.unb_logo {
+    padding: 0 0 0 50px;
+    justify-self: center;
+    height: 40px;
+    max-width: 156px;
+}
+
+nav {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+}
+
+nav a {
+    color: var(--preto-principal);
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+  /*---Fim do header---*/
+
+.descricao {
+    margin-top: 180px;
+}
+
+.descricao_texto {
+    background-image:url("../images/fundo_unb.png"); /*AOPACIDADE*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    padding: 30px 0;
+    justify-self: start;
+    width: 100%;
+}
+
+.descricao_texto h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.descricao_texto h2 {
+    font-size: 3em;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 0 50px 0;
+    padding: 0 25%;
+}
+
+.descricao_texto h3 {
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.descricao_texto p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 2em;
+}
+
+.desenvolvedores {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    padding: 50px 0;
+}
+
+.desenvolvedores p {
+    grid-column-start: 3;
+    text-align: center;
+    font-size: 2em;
+}
+
+.desenvolvedores img {
+    grid-row-start: 2;
+    width: 200px;
+    height: 200px;
+}

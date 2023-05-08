@@ -1,17 +1,17 @@
 ## **1. Introdução**
 
-### 1.1 Finalidade
+### 1.1 Finalidade do documento
 
-  
+O propósito deste texto é apresentar as particularidades da criação da aplicação mencionada e auxiliar no entendimento do contexto em que ela será utilizada. O foco deste artigo é descrever o problema a ser resolvido, identificar as partes interessadas e os perfis de usuário, contextualizar o campo de negócios em que a iniciativa será aplicada, bem como listar os recursos e especificações do sistema em questão.
 
 
-### 1.2 Escopo
+### 1.2 Escopo do projeto
 
-  
+ O projeto a ser desenvolvido será uma aplicação web que realizará um mapeamento do consumo de energia da população do Distrito Federal a fim de revelar diversos traços do perfil socioeconômico da região, demonstrando os dados ao usuário através de gráficos e outros possíveis recursos estudados pela equipe.
 
-### 1.6 Visão Geral
+### 1.3 Visão Geral
 
-  Desta forma, a ideia principal deste documento de visão é fornecer de maneira objetiva e organizada os assuntos que tangem à problemática inicial.
+  A ideia principal deste documento de visão é fornecer de maneira objetiva e organizada os assuntos que tangem à problemática inicial.
 
 ## **2. Posicionamento**
 
@@ -20,14 +20,8 @@
 
 ### 2.2 Descrição do problema
 
-| O problema é                                                                                  | que afeta       | cujo impacto é                                                                                                                         | uma boa solução seria                                                    |
-| --------------------------------------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 
 ### 2.3 Descrição de Posição do Produto
-
- 
-| Para    | que                                                                                                                           | o produto       | que                                                | diferente de | nosso produto                                             |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------- | -------------------------------------------------- | ------------ | --------------------------------------------------------- |
 
 
 ## **3. Descrição dos Envolvidos e dos Usuários**

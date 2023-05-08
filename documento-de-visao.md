@@ -52,6 +52,7 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 | Representantes    | Descrição                                                     | Tipo                                     | Responsabilidades                                                                                                                                                                               | Critério de sucesso                                                                                                             | Envolvimento |
 | ----------------- | ------------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Profa. Carla | Equipe responsável pela avaliação e direcionamento do projeto | Professora e coach do grupo da disciplina | Direcionar e dar suporte a equipe de desenvolvimento e gestão, nas disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software, quanto ao desenvolvimento do projeto | A entrega do projeto juntamente com uma documentação coerente estabelecida, a partir das orientações dadas ao longo do semestre | Alto         |
+| Profa. Paula Meyer |  Responsável por representar o usuário | Professora e Economista da Universidade de Brasília | Responsável por apresentar à equipea vontade do usuário
 
 #### 3.4.2 Equipe de Desenvolvimento e Gestão do Projeto
 
@@ -83,15 +84,17 @@ O observatório de energia foi pensado a partir de elementos apresentados em htt
 
 ### 4.1 Perspectiva do Produto
 
-O produto apresentará:
-- o perfil socio econômico do DF por RA, 
-- o perfil do trabalhador do DF por RA, 
-- perfil da população que utiliza serviços de saúde por RA 
-- e o perfil da população que tem acesso a internet por RA,
-
- em formato de gráfico dashboard.
+O objetivo do produto é apresentar dados abertos da ANEEL, mapeando o perfil socio econômico do DF por RA, o perfil do trabalhador do DF por RA, perfil da população que utiliza serviços de saúde por RA e o perfil da população que tem acesso a internet por RA em formato de gráfico dashboard para o usuário, facilitando o acesso a esses dados.
 
 ### 4.2 Resumo das capacidades
 
+O produto será capaz de atender as necessidades dos usuários que buscam acesso aos dados energético do Distrito Federal e suas Regiões Administrativas, apresentando de forma verossímil e auxiliando na construção de políticas públicas de energia voltadas para o Distrito Federal.
+
 ## **5. Recursos do Produto**
+
+### 5.1 Informação
+
+O observatório contará com um banco de dados de dados abertos da ANEEL que será representado ao usuário através de gráficos.
+
+### 5.2 Interação
 

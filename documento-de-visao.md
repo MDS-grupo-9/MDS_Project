@@ -42,6 +42,7 @@ Esse observatório de energia auxiliará na construção de políticas públicas
 
 ### 3.3 Ambiente do Usuário
 
+O usuário poderá interagir com o sistema através de uma apliação web.
 
 ### 3.4 Perfis dos Envolvidos
 
@@ -53,6 +54,13 @@ Esse observatório de energia auxiliará na construção de políticas públicas
 
 #### 3.4.2 Equipe de Desenvolvimento e Gestão do Projeto
 
+| Integrantes  |
+| --------------- |
+|Joel Soares Rangel|
+|Lucas Soares Rodrigues|
+|Davi Gonçalves Akegawa Pierre |
+|Matheus Barros do Nascimento  |
+|Yves Gustavo Ribeiro Pimenta |
 
 ### 3.5 Perfis dos Usuários
 

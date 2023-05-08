@@ -39,6 +39,7 @@ Esse observatório de energia auxiliará na construção de políticas públicas
 
 | Nome            | Descrição                                                               | Responsabilidade                                                                             |
 | :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+|Pessoa Jurídica  | O usuário poderá utilizaar dos dados apresentados em nossa aplicação a fim de utilizá-los na confecção de legislações públicas | |
 
 ### 3.3 Ambiente do Usuário
 
@@ -76,10 +77,19 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 
 #### **3.7 Alternativas e concorrências**
 
+O observatório de energia foi pensado a partir de elementos apresentados em https://observadf.org.br/
+
 ## **4. Visão geral do Produto**
 
 ### 4.1 Perspectiva do Produto
 
+O produto apresentará:
+- o perfil socio econômico do DF por RA, 
+- o perfil do trabalhador do DF por RA, 
+- perfil da população que utiliza serviços de saúde por RA 
+- e o perfil da população que tem acesso a internet por RA,
+
+ em formato de gráfico dashboard.
 
 ### 4.2 Resumo das capacidades
 

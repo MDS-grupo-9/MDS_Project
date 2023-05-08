@@ -19,11 +19,7 @@ O propósito deste texto é apresentar as particularidades da criação da aplic
 
 O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no incídio dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
 
-### 2.2 Descrição do problema
-
-
-
-### 2.3 Descrição de Posição do Produto
+### 2.2 Descrição de Posição do Produto
 
 Esse observatório de energia auxiliará na construção de políticas públicas de energia voltadas para o Distrito Federal futuramente.
 
@@ -49,10 +45,10 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 
 #### 3.4.1 Equipe avaliação e suporte
 
-| Representantes    | Descrição                                                     | Tipo                                     | Responsabilidades                                                                                                                                                                               | Critério de sucesso                                                                                                             | Envolvimento |
-| ----------------- | ------------------------------------------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Profa. Carla | Equipe responsável pela avaliação e direcionamento do projeto | Professora e coach do grupo da disciplina | Direcionar e dar suporte a equipe de desenvolvimento e gestão, nas disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software, quanto ao desenvolvimento do projeto | A entrega do projeto juntamente com uma documentação coerente estabelecida, a partir das orientações dadas ao longo do semestre | Alto         |
-| Profa. Paula Meyer |  Responsável por representar o usuário | Professora e Economista da Universidade de Brasília | Responsável por apresentar à equipea vontade do usuário
+| Representantes    | Descrição                                                     | Tipo                                     | Responsabilidades                                                                                                                                                                                | Envolvimento |
+| ----------------- | ------------------------------------------------------------- | ---------------------------------------- | --------------------------------------------------------- | ------------ |
+| Profa. Carla | Equipe responsável pela avaliação e direcionamento do projeto | Professora e coach do grupo da disciplina | Direcionar e dar suporte a equipe de desenvolvimento e gestão, nas disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software, quanto ao desenvolvimento do projeto |  Alto         |
+| Profa. Paula Meyer |  Responsável por representar o usuário | Professora e Economista da Universidade de Brasília | Responsável por apresentar à equipea vontade do usuário | alto
 
 #### 3.4.2 Equipe de Desenvolvimento e Gestão do Projeto
 
@@ -65,9 +61,6 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 |Yves Gustavo Ribeiro Pimenta |
 
 ### 3.5 Perfis dos Usuários
-
-| Representante            | Descrição                                                               | Tipo                                                               | Responsabilidade                                                                             | Critério de sucesso                                                                             | Envolvimento                                                                             |
-| :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 
 #### **3.6 Principais Necessidades dos Usuários ou dos Envolvidos**
 

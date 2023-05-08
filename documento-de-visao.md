@@ -17,12 +17,15 @@ O propósito deste texto é apresentar as particularidades da criação da aplic
 
 ### 2.1 Oportunidade de negócios
 
+O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no incídio dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
 
 ### 2.2 Descrição do problema
 
 
+
 ### 2.3 Descrição de Posição do Produto
 
+Esse observatório de energia auxiliará na construção de políticas públicas de energia voltadas para o Distrito Federal futuramente.
 
 ## **3. Descrição dos Envolvidos e dos Usuários**
 
@@ -30,6 +33,7 @@ O propósito deste texto é apresentar as particularidades da criação da aplic
 
 | Nome                          | Descrição                                                            | Responsabilidade                                                                                                                        |
 | :---------------------------- | :------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+|Equipe de desenvolvimento e gestão | Estudantes do curso de Engenharia de Software do campus do Gama da UnB que estão realizando a disciplina de Métodos de Desenvolvimento de Software | Gerenciar e desenvolver todas as partes do projeto |
 
 ### 3.2 Resumo dos Usuários
 

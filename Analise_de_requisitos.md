@@ -16,7 +16,7 @@ Além disso, formou-se a percepção de que os processos de desenvolvimento de s
 
 Os requisitos expressam as características e restrições do produto de software, do ponto de vista de satisfação das necessidades do usuário e, em geral, independem da tecnologia empregada na construção da solução.
 
-**Requisitos são objetivos ou restrições estabelecidas por clientes e usuários do sistema que definem as diversas propriedades do sistema.** Um conjunto de requisitos pode ser definido como uma condição o ou capacidade necessária que o software deve possuir para que o usuário possa resolver um problema ou atingir um objetivo ou para atender as necessidades ou restriçoes da organização ou dos outros componentes do sistema.
+**Requisitos são objetivos ou restrições estabelecidas por clientes e usuários do sistema que definem as diversas propriedades do sistema.** Um conjunto de requisitos pode ser definido como uma condição ou capacidade necessária que o software deve possuir para que o usuário possa resolver um problema ou atingir um objetivo ou para atender as necessidades ou restriçoes da organização ou dos outros componentes do sistema.
 
 ## Tipos de requisitos
 
@@ -31,16 +31,19 @@ Há, atualmente, diversas métodos de classificação de requisitos que se pode 
 
 ## Requisitos Funcionais
 
-| Identificador                 | Requisito                                                            | Prioridade |
-| :---------------------------- | :------------------------------------------------------------------- |  :-------- |
-| RF01                          |                                                                      |            |
-| RF02                          |                                                                      |            |
-| RF03                          |                                                                      |            |
+| Identificador                 | Requisito                                                                   | Prioridade |
+| :---------------------------- | :-------------------------------------------------------------------------- |  :-------- |
+| RF01                          | O software deve ser capaz de gerar gráficos a partir dos bancos de dados    |            |
+| RF02                          | O software deve estar hospedado                                             |            |
+| RF03                          | O software deve conter os créditos dos desenvolvedores e auxiliadores       |            |
+| RF04                          | Os gráficos devem ter fácil compreensão                                     |            |
+| RF05                          | Os gráficos devem possuir a variação dos dados em relação ao tempo          |            |
 
 ## Requisitos Não Funcionais
 
 | Identificador                 | Requisito                                                            | Prioridade |
 | :---------------------------- | :------------------------------------------------------------------- |  :-------- |
-| RNF01                         |                                                                      |            |
-| RNF02                         |                                                                      |            |
-| RNF03                         |                                                                      |            |
+| RNF01                         | O software deve ter pleno funcionamento em dispositivos desktop      |            |
+| RNF02                         | O visual do software deve ser baseado no símbolo da UnB              |            |
+
+> Os requisitos estão ligados à um projeto dinâmico, podendo ser alterados conforme sujam novas necessidades

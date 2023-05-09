@@ -1,0 +1,63 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --preto-principal: #000000;
+    --azul-unb: #023E7A;
+    --verde-unb: #008C44;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    padding: 0 20%;
+}
+/*---header---*/
+header {
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--branco-principal);
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    grid-template-rows: auto 80% auto;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border-bottom: 5px solid var(--azul-unb);
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    flex: 0 0 auto;
+}
+
+.unb_logo {
+    padding: 0 0 0 50px;
+    justify-self: center;
+    height: 40px;
+    max-width: 156px;
+}
+
+nav {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+}
+
+nav a {
+    color: var(--preto-principal);
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+  /*---Fim do header---*/
+
+footer {
+    margin: 80px 0;
+}

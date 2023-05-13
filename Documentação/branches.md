@@ -27,7 +27,7 @@ Padronização das branches no projeto.
 Não esquecer de dividir as palavras(sempre minúsculas) do assunto com "-".
 Exemplo: 
 ```
-feature/novo-menu
+feature/novo-menu/sprint02
 ```
 
 ### Branches:

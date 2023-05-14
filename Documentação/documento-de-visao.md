@@ -1,3 +1,16 @@
+---
+tag: "documentos"
+---
+
+## Histórico de Versões
+
+
+| Data       | Versão | Descrição                      | Autor             |
+| :--------: | :----: | :----------:                   | :---------------: |
+| 08/05/2023 |  0.1   | Criação do documento de visão  | [Joel Soares](https://github.com/JoelSRangel)|
+| 13/05/2023 |  0.2   | Revisão do documento + Adição/correção de informações | [Joel Soares](https://github.com/JoelSRangel)|
+
+
 ## **1. Introdução**
 
 ### 1.1 Finalidade do documento
@@ -15,11 +28,15 @@ O propósito deste texto é apresentar as particularidades da criação da aplic
 
 ## **2. Posicionamento**
 
-### 2.1 Oportunidade de negócios
+### 2.1 Problema a ser resolvido
+
+O problema que o produto (o observatório de energia) resolverá é a falta de informações detalhadas sobre o consumo de energia elétrica por estrato de renda, região administrativa e tipo de equipamento no Distrito Federal. Com essa falta de informação, é difícil para o governo e outras partes interessadas desenvolver políticas públicas de energia eficazes e orientadas por dados. O observatório de energia irá fornecer dados precisos e abrangentes sobre o consumo de energia, permitindo que os tomadores de decisão tenham uma visão mais clara das necessidades e comportamentos de consumo de energia na região, a fim de desenvolver políticas energéticas mais eficazes e direcionadas às necessidades da população.
+
+### 2.2 Oportunidade de negócios
 
 O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no incídio dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
 
-### 2.2 Descrição de Posição do Produto
+### 2.3 Descrição de Posição do Produto
 
 Esse observatório de energia auxiliará na construção de políticas públicas de energia voltadas para o Distrito Federal futuramente.
 
@@ -35,7 +52,8 @@ Esse observatório de energia auxiliará na construção de políticas públicas
 
 | Nome            | Descrição                                                               | Responsabilidade                                                                             |
 | :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
-|Pessoa Jurídica  | O usuário poderá utilizaar dos dados apresentados em nossa aplicação a fim de utilizá-los na confecção de legislações públicas | |
+|Pessoa Jurídica  | O usuário poderá estudar os dados apresentados em nossa aplicação a fim de utilizá-los na confecção de legislações públicas | Utilizar o sistema como referência e usufruir de suas funcionalidades|
+|Pessoa Física  | O usuário poderá estudar os dados apresentados em nossa aplicação a fim de atender seus interesses pessoais ou aplicá-los no ramo acadêmico | Utilizar o sistema como referência e usufruir de suas funcionalidades |
 
 ### 3.3 Ambiente do Usuário
 
@@ -48,19 +66,24 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 | Representantes    | Descrição                                                     | Tipo                                     | Responsabilidades                                                                                                                                                                                | Envolvimento |
 | ----------------- | ------------------------------------------------------------- | ---------------------------------------- | --------------------------------------------------------- | ------------ |
 | Profa. Carla | Equipe responsável pela avaliação e direcionamento do projeto | Professora e coach do grupo da disciplina | Direcionar e dar suporte a equipe de desenvolvimento e gestão, nas disciplinas Métodos de Desenvolvimento de Software e Engenharia de Produto de Software, quanto ao desenvolvimento do projeto |  Alto         |
-| Profa. Paula Meyer |  Responsável por representar o usuário | Professora e Economista da Universidade de Brasília | Responsável por apresentar à equipea vontade do usuário | alto
+| Profa. Paula Meyer |  Responsável por representar o usuário | Professora e Economista da Universidade de Brasília | Responsável por apresentar à equipe as necessidades do usuário | alto
 
 #### 3.4.2 Equipe de Desenvolvimento e Gestão do Projeto
 
-| Integrantes  |
-| --------------- |
-|Joel Soares Rangel|
-|Lucas Soares Rodrigues|
-|Davi Gonçalves Akegawa Pierre |
-|Matheus Barros do Nascimento  |
-|Yves Gustavo Ribeiro Pimenta |
+| Integrantes  | Papel |
+| :--------------- | :---------------- |
+|Joel Soares Rangel||
+|Lucas Soares Rodrigues||
+|Davi Gonçalves Akegawa Pierre ||
+|Matheus Barros do Nascimento  ||
+|Yves Gustavo Ribeiro Pimenta ||
 
 ### 3.5 Perfis dos Usuários
+
+| Representante            | Descrição                                                               | Tipo                                                               | Responsabilidade                                                                             | Critério de sucesso                                                                             |
+| :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| Pessoas Jurídicas interessadas na aplicação das informações | Entidades públicas que precisam do mapeamento sócio-econômico do DF e de suas RAs para o desenvolvimento de legislações pũblicas |Usuários buscando dados confiáveis |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |A utilização desses dados na criação de legislações públicas e o reconhecimento do auxílio do Observatório de Energia|
+| Pessoa física interessada por informações   |Pessoas que possuem interesse no estudo dos dados apresentados seja por questões pessoais ou para utilizá-los no ramo acadêmico | Usuários entusiastas ou do meio acadêmico |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |O reconhecimento do auxílio do Observatório de Energia|
 
 #### **3.6 Principais Necessidades dos Usuários ou dos Envolvidos**
 
@@ -68,6 +91,7 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 
 | Necessidade            | Prioridade                                                               | Solução Atual                                                               | Solução Proposta                                                                             |
 | :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| Automatização dos processos internos do projeto | Média | Bots nos meios de comunicação | Automatização de fácil aplicação e de alta praticidade para aumentar a produtividade da equipe|
 
 #### **3.7 Alternativas e concorrências**
 
@@ -91,3 +115,4 @@ O observatório contará com um banco de dados de dados abertos da ANEEL que ser
 
 ### 5.2 Interação
 
+O observatório contará com uma interface feita através de uma aplicação web pelo a qual o usuário poderá interagir e acessar as informações.

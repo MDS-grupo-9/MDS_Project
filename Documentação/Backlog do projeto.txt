@@ -1,0 +1,15 @@
+Backlog do Projeto: Observatório de energia
+Épico 1: Desenvolvimento do algoritmo de análise de dados
+
+Tela dos gráficos
+•	Conseguir carregar uma tabela Excel
+•	Conseguir acessar os dados da tabela do Excel
+•	Conseguir formar gráficos com as informações no Excel
+•	Conseguir relacionar as informações que o cliente requisitou para fazer as análises corretas.
+
+Épico 2: Desenvolvimento de abas para divisão do conteúdo
+
+Identidade visual
+•	Adicionar as informações na tela inicial com as informações e envolvidos do projeto
+•	Implementar o design requisitado pelo cliente
+•	Integrar com a tela de gráficos com o design do site

@@ -9,6 +9,7 @@ tag: "documentos"
 | :--------: | :----: | :----------:                   | :---------------: |
 | 08/05/2023 |  0.1   | Criação do documento de visão  | [Joel Soares](https://github.com/JoelSRangel)|
 | 13/05/2023 |  0.2   | Revisão do documento + Adição/correção de informações | [Joel Soares](https://github.com/JoelSRangel)|
+| 15/05/2023 |  0.3   | Completando a tabela de "Equipe de Desenvolvimento e Gestão do Projeto" | [Joel Soares](https://github.com/JoelSRangel)|
 
 
 ## **1. Introdução**
@@ -72,11 +73,11 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 
 | Integrantes  | Papel |
 | :--------------- | :---------------- |
-|Joel Soares Rangel||
-|Lucas Soares Rodrigues||
-|Davi Gonçalves Akegawa Pierre ||
-|Matheus Barros do Nascimento  ||
-|Yves Gustavo Ribeiro Pimenta ||
+|[Joel Soares Rangel](https://github.com/JoelSRangel)| Scrum Master|
+|[Lucas Soares Rodrigues](https://github.com/soaresrlucas)| Product Owner |
+|[Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |Desenvolvedor|
+|[Matheus Barros do Nascimento](https://github.com/Ninja-Haiyai)  |Desenvolvedor|
+|[Yves Gustavo Ribeiro Pimenta](https://github.com/Yvestxt) |Desenvolvedor|
 
 ### 3.5 Perfis dos Usuários
 

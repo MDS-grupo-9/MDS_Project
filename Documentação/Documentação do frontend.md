@@ -1,4 +1,4 @@
-# Documentação do frontend
+# Prototipo do Frotnend
 
 Na página inicial temos o símbolo da UnB no canto superior esquerdo por motivos de estética e duas linhas azuis (RGB #023E7A) Separando o cabeçalho do restante da página, todas as fontes do cabeçalho estão em Calibri 18.
 

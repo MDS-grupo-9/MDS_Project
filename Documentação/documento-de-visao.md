@@ -12,6 +12,7 @@ tag: "documentos"
 | 15/05/2023 |  0.3   | Completando a tabela de "Equipe de Desenvolvimento e Gestão do Projeto" | [Joel Soares](https://github.com/JoelSRangel)|
 
 
+
 ## **1. Introdução**
 
 ### 1.1 Finalidade do documento
@@ -35,7 +36,7 @@ O problema que o produto (o observatório de energia) resolverá é a falta de i
 
 ### 2.2 Oportunidade de negócios
 
-O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no incídio dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
+O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no início dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
 
 ### 2.3 Descrição de Posição do Produto
 
@@ -83,7 +84,7 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 
 | Representante            | Descrição                                                               | Tipo                                                               | Responsabilidade                                                                             | Critério de sucesso                                                                             |
 | :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
-| Pessoas Jurídicas interessadas na aplicação das informações | Entidades públicas que precisam do mapeamento sócio-econômico do DF e de suas RAs para o desenvolvimento de legislações pũblicas |Usuários buscando dados confiáveis |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |A utilização desses dados na criação de legislações públicas e o reconhecimento do auxílio do Observatório de Energia|
+| Pessoas Jurídicas interessadas na aplicação das informações | Entidades públicas que precisam do mapeamento sócio-econômico do DF e de suas RAs para o desenvolvimento de legislações públicas |Usuários buscando dados confiáveis |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |A utilização desses dados na criação de legislações públicas e o reconhecimento do auxílio do Observatório de Energia|
 | Pessoa física interessada por informações   |Pessoas que possuem interesse no estudo dos dados apresentados seja por questões pessoais ou para utilizá-los no ramo acadêmico | Usuários entusiastas ou do meio acadêmico |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |O reconhecimento do auxílio do Observatório de Energia|
 
 #### **3.6 Principais Necessidades dos Usuários ou dos Envolvidos**

@@ -10,6 +10,7 @@ tag: "documentos"
 | 08/05/2023 |  0.1   | Criação do documento de visão  | [Joel Soares](https://github.com/JoelSRangel)|
 | 13/05/2023 |  0.2   | Revisão do documento + Adição/correção de informações | [Joel Soares](https://github.com/JoelSRangel)|
 | 15/05/2023 |  0.3   | Completando a tabela de "Equipe de Desenvolvimento e Gestão do Projeto" | [Joel Soares](https://github.com/JoelSRangel)|
+| 18/05/2023 |  0.4   | Completanto as informações da seção 2.2 | [Joel Soares](https://github.com/JoelSRangel)|
 
 
 
@@ -36,7 +37,7 @@ O problema que o produto (o observatório de energia) resolverá é a falta de i
 
 ### 2.2 Oportunidade de negócios
 
-O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no início dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
+O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no início dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento, estudar as necessidades de cada grupo e desenvolver políticas de acordo.
 
 ### 2.3 Descrição de Posição do Produto
 

@@ -1,4 +1,11 @@
-# Prototipo do Frotnend
+## Histórico de Versões
+
+| Data       | Versão | Descrição                         | Autor             |
+| :--------: | :----: | :----------:                      | :---------------: |
+| 16/05/2023 |  0.1   | Criação do documento do frontend  | [Davi Pierre](https://github.com/DaviPierre)|
+| 18/05/2023 |  0.2   | Revisão + correção ortográfica    | [Lucas Soares](https://github.com/soaresrlucas)|
+
+## Protótipo do Frontend
 
 Na página inicial temos o símbolo da UnB no canto superior esquerdo por motivos de estética e duas linhas azuis (RGB #023E7A) Separando o cabeçalho do restante da página, todas as fontes do cabeçalho estão em Calibri 18.
 

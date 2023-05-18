@@ -13,10 +13,11 @@ Este documento foi dividido em tópicos para faciliar a leitura e detalhar as ca
 
 ## 1. Histórico de Versões
 
-  |Data|Versão|Alteração|Autor|  
-  |----|------|---------|-----|  
-  |02/05/2023|0.1|Protótipo de arquitetura|Yves Pimenta|  
-  |18/05/2023|0.2|Correção e detalhamento da arquitetura|Yves Pimenta|
+  | Data | Versão | Alteração | Autor |  
+  | ---- | ------ | --------- | ----- |  
+  | 02/05/2023 | 0.1 | Protótipo de arquitetura | [Yves Pimenta](https://github.com/Yvestxt) |
+  | 18/05/2023 | 0.2 | Correção e detalhamento da arquitetura | [Yves Pimenta](https://github.com/Yvestxt) |
+  | 18/05/2023 | 0.3 | Revisão + correção ortográfica | [Lucas Soares](https://github.com/soaresrlucas) |
   
 ## 2. Introdução
 ### Objetivo
@@ -62,7 +63,7 @@ O backend do Observatório de Energia é responsável por coletar os dados públ
 ### Streamlit
 
 - É uma biblioteca de código aberto em Python que permite a criação rápida de aplicativos web interativos e responsivos.
-- Sua principal função, neste projeto, é fornecer uma interface de usuário interativa para os usuários explorarem e visualizarem o site o os dados relacionados ao consumo de energia no Distrito Federal.
+- Sua principal função, neste projeto, é fornecer uma interface de usuário interativa para os usuários explorarem e visualizarem o site e os dados relacionados ao consumo de energia no Distrito Federal.
 - Possui recursos embutidos para a exibição de gráficos gerados pelo Matplotlib e outros pacotes de visualização, facilitando a visualização dos dados de forma clara e atraente.  
 
 ### Pandas
@@ -76,7 +77,7 @@ O backend do Observatório de Energia é responsável por coletar os dados públ
 
 - É uma biblioteca de visualização de dados em Python amplamente utilizada para criar gráficos e visualizações de alta qualidade.
 - Sua principal função, neste projeto, é gerar os gráficos relacionados ao consumo de energia no Distrito Federal, com base nos dados analisados pela biblioteca Pandas.
-- Também suporta a criação de gráficos interativos e a incorporação de gráficos em aplicativos web ou interfaces de usuário. Isso pode ser especialmente útil ao combinado ao Streamlit.
+- Também suporta a criação de gráficos interativos e a incorporação de gráficos em aplicativos web ou interfaces de usuário. Isso pode ser especialmente útil quando combinado ao Streamlit.
   
 ### Python
 

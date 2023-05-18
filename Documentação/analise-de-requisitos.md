@@ -1,7 +1,12 @@
-# Análise de Requisitos
-- dado um tipo de requisitos, quais são os requisitos desse tipo que o projeto deverá ter?
+## Histórico de Versões
 
-Esse documento tem como finalidade...
+| Data       | Versão | Descrição                         | Autor             |
+| :--------: | :----: | :----------:                      | :---------------: |
+| 06/05/2023 |  0.1   | Criação do documento do análise-de-requisitos  | [Joel Soares](https://github.com/JoelSRangel)|
+| 07/05/2023 |  0.2   | Adição de alguns requisitos  | [Lucas Soares](https://github.com/soaresrlucas)|
+| 18/05/2023 |  0.3   | Revisão + complementação do texto    | [Joel Soares](https://github.com/JoelSRangel)|
+
+# Análise de Requisitos
 
 A análise de requisitos é um processo de gestão de projeto que abrange dois grandes grupos de atividades:
 
@@ -27,23 +32,37 @@ Há, atualmente, diversas métodos de classificação de requisitos que se pode 
 
 ## Prioridades
 
+ Para estabelecer a prioridade dos requisitos serão adotadas as denominações "essencial", "importante" e "desejável", tal que:
+ 
+- **Essencial**: é o requisito sem o qual o sistema não entra em funcionamento. Requisitos essenciais são aqueles imprescindíveis, que devem ser implementados impreterivelmente.
+- **Importante**: é o requisito sem o qual o sistema entra em funcionamento, mas de forma não satisfatória. 
+- **Desejável**: é o requisito que não compromete as funcionalidades básicas do sistema, isto é, o sistema pode funcionar de forma satisfatória sem ele. Requisitos desejáveis podem ser deixados para versões posteriores do sistema, caso não haja tempo hábil para implementação dos mesmos nesta etapa.
+
 # Requisitos do projeto
 
 ## Requisitos Funcionais
 
 | Identificador                 | Requisito                                                                   | Prioridade |
 | :---------------------------- | :-------------------------------------------------------------------------- |  :-------- |
-| RF01                          | O software deve ser capaz de gerar gráficos a partir dos bancos de dados    |            |
-| RF02                          | O software deve estar hospedado                                             |            |
-| RF03                          | O software deve conter os créditos dos desenvolvedores e auxiliadores       |            |
-| RF04                          | Os gráficos devem ter fácil compreensão                                     |            |
-| RF05                          | Os gráficos devem possuir a variação dos dados em relação ao tempo          |            |
+| RF01                          | O software de fazer o mapeamento do perfil sócio-econômico da população do DF |Essencial |
+| RF02                          | O software deve ser disponibilizado para o acesso de qualquer pessoa interessada | Essencial|
+| RF03                          | O software deve conter os créditos dos desenvolvedores e auxiliadores na aba "Quem somos" e "Professores"  |Importante|
+| RF04                          | A aplicação deverá possuir mais de uma pãgina para que o usuário possa navegar          |Importante|
+| RF05                          | O software deverá disponibilizar na aba "Na mídia" conteúdos midiáticos da equipe |Desejável|
+| RF06                          | O software deverá ter um banco de dados |Essencial |
+| RF07                          | O software deverá ter uma aplicação de interface na web |Essencial |
 
 ## Requisitos Não Funcionais
 
 | Identificador                 | Requisito                                                            | Prioridade |
 | :---------------------------- | :------------------------------------------------------------------- |  :-------- |
-| RNF01                         | O software deve ter pleno funcionamento em dispositivos desktop      |            |
-| RNF02                         | O visual do software deve ser baseado no símbolo da UnB              |            |
+| RNF01                         | O software deve ter pleno funcionamento em dispositivos desktop      |Essencial|
+| RNF02                         | O visual do software deve ser baseado no símbolo da UnB              |Importante|
+| RNF03                         | A aplicação deverá apresentar botões que guiarão o usuário por ela          |Essencial|
+| RNF04                         | O software deverá permitir que o usuário saiba a origem dos dados         |Desejável|
+| RNF05                         | O software deve ser capaz de gerar gráficos a partir dos bancos de dados    |Essencial |
+| RNF06                         | Os gráficos devem possuir a variação dos dados em relação ao tempo          |Importante|
+| RNF07                         | A aplicação deverá possuir           |Importante|
+| RNF08                         | Os gráficos devem ter fácil compreensão                                     |Desejável|
 
 > Os requisitos estão ligados à um projeto dinâmico, podendo ser alterados conforme sujam novas necessidades

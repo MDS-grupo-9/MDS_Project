@@ -28,6 +28,8 @@ Se você quiser contribuir para este projeto, siga estas etapas:
 4. Faça push para a sua branch (**git push origin minha-branch**)
 5. Abra um Pull Request
 
+**Lembre-se que é *OBRIGATÓRIO* seguir nossas políticas de [branch](https://github.com/DaviPierre/MDS_Project/blob/main/Documenta%C3%A7%C3%A3o/branches.md) e [commit](https://github.com/DaviPierre/MDS_Project/blob/main/Documenta%C3%A7%C3%A3o/commits.md) ao contribuir com o projeto.**
+
 ## Contribuidores
 
 |![Joel](https://github.com/JoelSRangel.png) |![Lucas](https://github.com/soaresrlucas.png)|![Davi](https://github.com/DaviPierre.png)|![Yves](https://github.com/Yvestxt.png)|![Matheus](https://github.com/Ninja-Haiyai.png)|

@@ -9,6 +9,9 @@ tag: "documentos"
 | :--------: | :----: | :----------:                   | :---------------: |
 | 08/05/2023 |  0.1   | Criação do documento de visão  | [Joel Soares](https://github.com/JoelSRangel)|
 | 13/05/2023 |  0.2   | Revisão do documento + Adição/correção de informações | [Joel Soares](https://github.com/JoelSRangel)|
+| 15/05/2023 |  0.3   | Completando a tabela de "Equipe de Desenvolvimento e Gestão do Projeto" | [Joel Soares](https://github.com/JoelSRangel)|
+| 18/05/2023 |  0.4   | Completanto as informações da seção 2.2 | [Joel Soares](https://github.com/JoelSRangel)|
+
 
 
 ## **1. Introdução**
@@ -34,7 +37,7 @@ O problema que o produto (o observatório de energia) resolverá é a falta de i
 
 ### 2.2 Oportunidade de negócios
 
-O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no incídio dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento
+O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no início dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento, estudar as necessidades de cada grupo e desenvolver políticas de acordo.
 
 ### 2.3 Descrição de Posição do Produto
 
@@ -72,17 +75,17 @@ O usuário poderá interagir com o sistema através de uma apliação web.
 
 | Integrantes  | Papel |
 | :--------------- | :---------------- |
-|Joel Soares Rangel||
-|Lucas Soares Rodrigues||
-|Davi Gonçalves Akegawa Pierre ||
-|Matheus Barros do Nascimento  ||
-|Yves Gustavo Ribeiro Pimenta ||
+|[Joel Soares Rangel](https://github.com/JoelSRangel)| Scrum Master|
+|[Lucas Soares Rodrigues](https://github.com/soaresrlucas)| Product Owner |
+|[Davi Gonçalves Akegawa Pierre](https://github.com/DaviPierre) |Desenvolvedor|
+|[Matheus Barros do Nascimento](https://github.com/Ninja-Haiyai)  |Desenvolvedor|
+|[Yves Gustavo Ribeiro Pimenta](https://github.com/Yvestxt) |Desenvolvedor|
 
 ### 3.5 Perfis dos Usuários
 
 | Representante            | Descrição                                                               | Tipo                                                               | Responsabilidade                                                                             | Critério de sucesso                                                                             |
 | :-------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
-| Pessoas Jurídicas interessadas na aplicação das informações | Entidades públicas que precisam do mapeamento sócio-econômico do DF e de suas RAs para o desenvolvimento de legislações pũblicas |Usuários buscando dados confiáveis |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |A utilização desses dados na criação de legislações públicas e o reconhecimento do auxílio do Observatório de Energia|
+| Pessoas Jurídicas interessadas na aplicação das informações | Entidades públicas que precisam do mapeamento sócio-econômico do DF e de suas RAs para o desenvolvimento de legislações públicas |Usuários buscando dados confiáveis |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |A utilização desses dados na criação de legislações públicas e o reconhecimento do auxílio do Observatório de Energia|
 | Pessoa física interessada por informações   |Pessoas que possuem interesse no estudo dos dados apresentados seja por questões pessoais ou para utilizá-los no ramo acadêmico | Usuários entusiastas ou do meio acadêmico |O usuário, além de utilizar o programa e usufruir de suas funcionalidades, deverá alertar possíveis falhas e problemas nos dados |O reconhecimento do auxílio do Observatório de Energia|
 
 #### **3.6 Principais Necessidades dos Usuários ou dos Envolvidos**

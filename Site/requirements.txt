@@ -1,1 +1,1 @@
-mathplotlib==3.7.1
+matplotlib==3.7.1

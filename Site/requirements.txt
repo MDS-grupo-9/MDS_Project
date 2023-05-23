@@ -1,1 +1,2 @@
 matplotlib==3.7.1
+pyxel==1.9.15

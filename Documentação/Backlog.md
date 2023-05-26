@@ -1,3 +1,10 @@
+## Histórico de Versões
+
+| Data       | Versão | Descrição                         | Autor             |
+| :--------: | :----: | :----------:                      | :---------------: |
+| 16/05/2023 |  0.1   | Criação do documento do Backlog   | [Matheus Barros do Nascimento](https://github.com/Ninja-Haiyai)|
+| 18/05/2023 |  0.2   | Revisão + correção ortográfica    | [Joel Soares Rangel](https://github.com/JoelSRangel)|
+
 # Backlog do Projeto - Site de Análise de Dados
 
 ## Histórias de Usuário

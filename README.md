@@ -1,26 +1,37 @@
-# :zap:Análise dos Dados Abertos da Agência Nacional de Energia Elétrica
-Este é um repositório de código aberto que contém análises de dados abertos de uma Organização Federal. O objetivo deste projeto é explorar, analisar e visualizar dados para identificar tendências, padrões e insights úteis do Sistema de Informações de Geração da ANEEL.
+<h1 align="center">:zap: OBSERVATÓRIO DE ECONOMIA E DE ENERGIA :zap:</h1>
+
+Este é um repositório de código aberto que contém um site desenvolvido em Python usando as bibliotecas Streamlit, Pandas e Matplotlib. O objetivo do site é fornecer informações relevantes e visualizações interativas relacionadas à economia de energia no Distrito Federal.
+  
+Estes dados podem ser utilizados por profissionais e tomadores de decisão em áreas relacionadas à energia, permitindo uma melhor compreensão do cenário energético do Distrito Federal e auxiliando na formulação de políticas e estratégias.
+
+## 💡 Funcionalidades
+
+* **Análise de Dados**: O site oferece análises detalhadas sobre o consumo de energia no Distrito Federal, utilizando dados recentes e informações relevantes sobre o setor energético.
+* **Visualizações Interativas**: Os dados são apresentados por meio de gráficos, mapas e tabelas interativas, gerados com o auxílio das bibliotecas Pandas e Matplotlib.
+* **Conscientização**: O site ajuda a conscientizar a população sobre os impactos gerados pelos diferentes eletrodomésticos e produtos, incentivando práticas mais sustentáveis e eficientes em relação ao uso da energia
+* **Para Estudantes**: O site oferece dados e análises que podem ser úteis para estudantes que desejam compreender melhor o consumo de energia no DF, identificar tendências e padrões, e explorar o perfil socioeconômico das regiões.
 
 ## :file_folder: Fonte de Dados
-Os dados utilizados neste projeto foram obtidos a partir de conjuntos de dados abertos disponibilizados pela Organização Federal ANEEL. Esses conjuntos de dados contêm informações do empreendimentos de geração de energia elétrica do parque gerador nacional em diversas fases: desde etapas anteriores à outorgas até a revogação.
 
-Você poderá ter acesso à base de dados através do link: 
+Os dados utilizados são obtidos a partir da Pesquisa Distrital por Amostra de Domicílios (PDAD), e podem ser acessados pelo site [codeplan.df](https://www.codeplan.df.gov.br/pdad-2021-3/). A PDAD é uma pesquisa domiciliar amostral realizada a cada dois anos pela Codeplan. Seu objetivo é investigar informações demográficas, sociais, de trabalho e de renda, além de atributos dos domicílios.
 
-https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel
+Para este projeto, alguns dados são coletados e analisados para gerar os gráficos e observações relevantes.
 
 ## :computer: Tecnologias Utilizadas
+
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
-* Python: para análise de dados; 
-* Pandas: para manipulação de dados;  
-* Streamlit: para desenvolvimento da interface de interação com o usuário.
-
-<p align="center">
-  <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python logo" width="175"/>  <img src="https://pandas.pydata.org/static/img/pandas.svg" alt="Pandas logo" width="175"/>  <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit logo" width="175"/>
-</p> 
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white">
+  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/Matplotlib-4285F4.svg?style=for-the-badge&logo=MatPlotLib&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white">
+</p>
+Pandas
+Matplotlib
 
 ## Como Contribuir
-Se você quiser contribuir para este projeto, siga estas etapas:
+
+Para contribuir, siga as seguintes etapas:
 
 1. Faça um fork deste repositório
 2. Crie uma branch com suas alterações (**git checkout -b minha-branch**)
@@ -32,9 +43,24 @@ Se você quiser contribuir para este projeto, siga estas etapas:
 
 ## Contribuidores
 
-|![Joel](https://github.com/JoelSRangel.png) |![Lucas](https://github.com/soaresrlucas.png)|![Davi](https://github.com/DaviPierre.png)|![Yves](https://github.com/Yvestxt.png)|![Matheus](https://github.com/Ninja-Haiyai.png)|
-| - | - | - | - | - |
-|[Joel Soares](https://github.com/JoelSRangel)|[Lucas Soares](https://github.com/soaresrlucas)|[Davi](https://github.com/DaviPierre)|[Yves](https://github.com/Yvestxt)|[Matheus](https://github.com/Ninja-Haiyai)|
+<table>
+  <tbody>
+    <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/98978800?v=4" width="200px"></td>
+      <td><img src="https://avatars.githubusercontent.com/u/89469881?v=4" width="200px"></td>
+      <td><img src="https://avatars.githubusercontent.com/u/73446334?v=4" width="200px"></td>
+      <td><img src="https://avatars.githubusercontent.com/u/73966483?v=4" width="200px"></td>
+      <td><img src="https://avatars.githubusercontent.com/u/73038704?v=4" width="200px"></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/JoelSRangel">Joel Soares</td>
+      <td align="center"><a href="https://github.com/soaresrlucas">Lucas Soares</td>
+      <td align="center"><a href="https://github.com/DaviPierre">Davi Pierre</td>
+      <td align="center"><a href="https://github.com/Yvestxt">Yves Pimenta</td>
+      <td align="center"><a href="https://github.com/Ninja-Haiyai">Matheus Barros</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Contato
 Se você tiver alguma dúvida ou sugestão sobre este projeto, entre em contato conosco pelo email {embreve@wait.com}

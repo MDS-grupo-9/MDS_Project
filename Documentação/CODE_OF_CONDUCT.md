@@ -1,3 +1,8 @@
+| Data       | Versão | Descrição                         | Autor             |
+| :--------: | :----: | :----------:                      | :---------------: |
+| 07/05/2023 |  0.1   | Criação do documento do código de conduta  | [Lucas Soares](https://github.com/soaresrlucas)|
+| 26/05/2023 |  0.2   | Revisão| [Joel Soares](https://github.com/JoelSRangel)|
+
 
 ## Propósito
 

@@ -1,13 +1,4 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --preto-principal: #000000;
-    --azul-unb: #023E7A;
-    --verde-unb: #008C44;
-    --fonte-principal: 'Inter';
-}
-
 section {
-    margin-top: 180px;
     color: var(--branco-principal);
     display: flex;
     flex-direction: column;
@@ -16,32 +7,22 @@ section {
 
 
 section h1 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     align-self: center;
-    padding: 10px 30px;
+    padding: 23px 75px;
     background-color: var(--azul-unb);
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 section h2{
-    margin: 40px 0;
-    font-size: 50px;
+    margin: 90px 0 50px 160px;
+    font-size: 60px;
     background-color: var(--azul-unb);
-    padding: 10px 30px;
-    border-radius: 10px;
+    padding: 23px 72px;
+    border-radius: 25px;
 }
 
 section img {
-    height: 500px;
-    width: 1000px;
-    padding-left: 5%;
-}
-
-section p {
-    color: var(--preto-principal);
-    padding: 0 5%;
-    font-size: 18px;
-    text-align: left;
-    text-justify: distribute;
+    margin: 50px auto 0 auto;
 }

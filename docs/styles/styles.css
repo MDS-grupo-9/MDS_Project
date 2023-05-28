@@ -1,18 +1,24 @@
 :root {
     --branco-principal: #FFFFFF;
     --preto-principal: #000000;
-    --azul-unb: #023E7A;
+    --azul-unb: #013F7A;
     --verde-unb: #008C44;
-    --fonte-principal: 'Inter';
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 30px;
 }
 
 body {
     background-color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-    padding: 0 20%;
+    font-family: 'Lexend Giga', sans-serif;
+    scroll-padding-top: 200px;
+    padding-top: 200px;
 }
 /*---header---*/
 header {
+    font-family: 'Inter', sans-serif;
     position:absolute;
     left: 0;
     top: 0;
@@ -24,6 +30,10 @@ header {
     width: 100%;
     height: 60px;
     border-bottom: 5px solid var(--azul-unb);
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: fixed;
+    z-index: 1;
 }
 
 .logo {

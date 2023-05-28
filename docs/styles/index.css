@@ -1,98 +1,152 @@
-.descricao {
-    margin-top: 180px;
+.titulo {
+    display: flex;
+    justify-content: center;
+    min-width: 1200px;
+    min-height: 600px;
+    background: url(../images/fundo_unb.png) center center no-repeat;
 }
 
-.descricao_texto {
-    position: relative;
-    z-index: 5;
-    height: 100%;
-    color: #000;
-    padding: 30px 0;
-    justify-self: start;
-    width: 100%;
-  }
-
-  .descricao_texto .bg {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(../images/fundo_unb.png) center center;
-    opacity: .4;
-    width: 100%;
-    height: 100%;
-
-  }
-
-
-.descricao_texto h1 {
-    font-size: 4em;
-    text-align: center;
+.nome_projeto {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
-.descricao_texto h2 {
-    font-size: 3em;
-    font-weight: lighter;
-    text-align: center;
-    margin: 30px 0 50px 0;
-    padding: 0 25%;
-}
-
-.descricao_texto h3 {
+.nome_projeto h1 {
     font-size: 70px;
-    font-weight: lighter;
-    text-align: left;
-    margin: 20px 0;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.descricao_texto p {
+.nome_projeto h2 {
+    width: 710px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin:  10px auto ;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    background-color: #3D3D3D;
+    margin-top: 280px;
+    padding: 100px 150px;
+}
+
+.sobre h3{
+    color: #FFFFFF;
+    font-size: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sobre p{
+    color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
     font-size: 18px;
-    font-weight: lighter;
-    text-align: left;
-    margin: 20px 0;
-    padding: 0 5%;
+    line-height: 22px;
+    margin: 30px 0;
+}
+
+.sobre button{
+    width: 200px;
+    height: 60px;
+    background: #046ACB;
+    border-radius: 60px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+    margin: 70px auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.quem_somos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    padding: 0 160px;
+    background: #D8D8D8;
+}
+
+.quem_somos h3 {
+    padding: 100px 0;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quem_somos img {
+    grid-row-start: 2;
+}
+
+.quem_somos p {
+    grid-row-start: 2;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
 }
 
 .desenvolvedores {
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto auto;
+    margin: 40px 0 90px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.desenvolvedores p {
-    margin: 40px 0 ;
-    grid-column-start: 3;
+.desenvolvedores h3 {
+    margin: 40px 0 90px 0 ;
     text-align: center;
-    font-size: 2em;
+    font-size: 60px;
+}
+
+.desenvolvedores div {
+    align-self: center;
+    margin: 0 238px 300px 238px;
 }
 
 .desenvolvedores img {
-    grid-row-start: 2;
     align-self: center;
-    justify-self: center;
     width: 200px;
     height: 200px;
+    padding-right: 74px;
 }
 
 .prof {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto ;
-    justify-self: center;
     margin-top: 80px;
 }
 
-.prof p {
-    justify-self: center;
-    margin-bottom: 40px;
-    font-size: 2em;
+.prof h3 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 54px;
+    line-height: 68px;
+    text-align: center;
+    max-width: 1560px;
+    margin: 0 auto 40px auto;
+}
+
+.prof div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
 }
 
 .prof img {
-    justify-self: center;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
+    grid-row-start: 1;
+}
+
+.prof p {
+    font-family: 'Lexend', sans-serif;
+    font-size: 54px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 68px;
 }

@@ -1,7 +1,7 @@
 .titulo {
     min-width: 1200px;
-    min-height: 600px;
-    margin: 200px 360px;
+    min-height: 212px;
+    margin: 393px auto 475px auto;
 }
 
 .titulo:before {
@@ -20,7 +20,7 @@
     background-size: cover;
 }
 
-.nome_projeto {
+.titulo .nome_projeto {
     position: relative;
     z-index: 2;
     display: flex;
@@ -30,25 +30,27 @@
     flex-wrap: wrap-reverse;
 }
 
-.nome_projeto h1 {
+.titulo .nome_projeto h1 {
     font-size: 70px;
     text-align: center;
+    line-height: 88px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.nome_projeto h2 {
+.titulo .nome_projeto h2 {
     width: 710px;
     font-family: 'Lexend', sans-serif;
     font-size: 50px;
     text-align: center;
-    margin:  10px auto ;
+    line-height: 62px;
+    margin:  0 auto ;
 }
 
 .sobre {
     display: flex;
     flex-direction: column;
     background-color: #3d3d3dcc;
-    margin-top: 280px;
+    
     padding: 100px 150px;
 }
 

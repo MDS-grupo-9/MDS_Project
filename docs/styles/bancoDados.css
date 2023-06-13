@@ -7,22 +7,31 @@ section {
 
 
 section h1 {
-    font-size: 60px;
+    width: 720px;
+    height: 90px;
     text-align: center;
+    font-size: 50px;
+    line-height: 90px;
     align-self: center;
-    padding: 23px 75px;
     background-color: var(--azul-unb);
-    border-radius: 25px;
+    border: 4px solid #E6E6E6;
+    border-radius: 50px;
+    align-self: center;
+    margin-top: 106px;
 }
 
 section h2{
-    margin: 90px 0 50px 160px;
-    font-size: 60px;
+    margin: 126px auto 100px auto;
     background-color: var(--azul-unb);
     padding: 23px 72px;
     border-radius: 25px;
+    width: 295px;
+    height: 76px;
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 400;
 }
 
 section img {
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
 }

@@ -159,7 +159,9 @@
     background: #2e2e2e;
     mix-blend-mode: normal;
     border-radius: 100px;
-    transform: translate(-3%, -158%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     box-shadow:200px 200px 200px 500px rgba(0,0,0,0.4)

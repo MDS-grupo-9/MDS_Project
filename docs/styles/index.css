@@ -1,12 +1,28 @@
 .titulo {
-    display: flex;
-    justify-content: center;
     min-width: 1200px;
-    min-height: 600px;
-    background: url(../images/fundo_unb.png) center center no-repeat;
+    min-height: 212px;
+    margin: 393px auto 475px auto;
 }
 
-.nome_projeto {
+.titulo:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 360px;
+    top: 200px;
+    width: 1200px;
+    height: 600px;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url(../images/fundo_unb.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.titulo .nome_projeto {
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -14,25 +30,27 @@
     flex-wrap: wrap-reverse;
 }
 
-.nome_projeto h1 {
+.titulo .nome_projeto h1 {
     font-size: 70px;
     text-align: center;
+    line-height: 88px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.nome_projeto h2 {
+.titulo .nome_projeto h2 {
     width: 710px;
     font-family: 'Lexend', sans-serif;
     font-size: 50px;
     text-align: center;
-    margin:  10px auto ;
+    line-height: 62px;
+    margin:  0 auto ;
 }
 
 .sobre {
     display: flex;
     flex-direction: column;
-    background-color: #3D3D3D;
-    margin-top: 280px;
+    background-color: #3d3d3dcc;
+    
     padding: 100px 150px;
 }
 
@@ -45,9 +63,10 @@
 .sobre p{
     color: #FFFFFF;
     font-family: 'Lexend', sans-serif;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 30px;
+    line-height: 38px;
     margin: 30px 0;
+    width: 1616px;
 }
 
 .sobre button{
@@ -71,13 +90,13 @@
 .quem_somos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-    padding: 0 160px;
+    grid-template-rows: 1fr 3fr 1fr;
+    padding: 110px 160px 0 160px;
     background: #D8D8D8;
+    padding-top: 110px;
 }
 
 .quem_somos h3 {
-    padding: 100px 0;
     font-size: 60px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -89,11 +108,25 @@
 .quem_somos p {
     grid-row-start: 2;
     font-family: 'Lexend', sans-serif;
-    font-size: 18px;
+    font-size: 30px;
+    line-height: 38px;
+    height: fit-content;
+    width: 700px;
+}
+
+.quem_somos a {
+    width: fit-content;
+    height: fit-content;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin: auto;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
 .desenvolvedores {
-    margin: 40px 0 90px 0;
+    margin: 40px 0 0 0;
     display: flex;
     flex-direction: column;
 }
@@ -106,7 +139,7 @@
 
 .desenvolvedores div {
     align-self: center;
-    margin: 0 238px 300px 238px;
+    margin: 0 auto 300px auto;
 }
 
 .desenvolvedores img {
@@ -118,7 +151,6 @@
 
 .prof {
     display: grid;
-    margin-top: 80px;
 }
 
 .prof h3 {

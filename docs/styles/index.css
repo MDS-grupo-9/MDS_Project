@@ -150,3 +150,44 @@
     margin-top: 10px;
     line-height: 68px;
 }
+
+.pop-up{
+    position: relative;
+    width: 1620px;
+    height: 900px;
+    margin-left: 150px;
+    background: #3D3D3D;
+    mix-blend-mode: normal;
+    border-radius: 100px;
+}
+
+.pop-up p{
+    color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    width: 1166px;
+    line-height: 25px;
+    margin-left: 150px;
+}
+
+.pop-up button{
+    width: 200px;
+    height: 60px;
+    background: #046ACB;
+    border-radius: 60px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+    margin: 70px auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.pop-up.visible{
+    display:block;
+}

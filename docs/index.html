@@ -45,7 +45,7 @@
             <button type="button" id="botao-saiba-mais" onclick="abrirPopUp()">Saiba mais</button>
             <div id="popupElement" class="pop-up">
                 <p>O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação criada no início dos anos 60. Dentro desse contexto, a caracterização dessa população que mora e que veio de diversas partes do Brasil é crucial de modo que se possa, a partir de um mapeamento do consumo de energia por estrato de renda, região administrativa e tipo de equipamento, estudar as necessidades de cada grupo e desenvolver políticas de acordo.</p>
-                <button type="button" id="botao-mostrar-menos">Mostrar menos</button>
+                <button type="button" id="botao-mostrar-menos" onclick="fecharPopUp()" >Mostrar menos</button>
             </div>
 
         </div>
@@ -76,7 +76,6 @@
         <footer>
         </footer>
         <script>
-            popupElement.classList.remove('visible');
             function abrirPopUp() {
                 var popupElement = document.getElementById('popupElement');
                 popupElement.classList.add('visible');

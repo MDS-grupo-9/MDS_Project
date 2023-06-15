@@ -54,13 +54,13 @@
     padding: 100px 150px;
 }
 
-.sobre h3{
+.sobre h3 {
     color: #FFFFFF;
     font-size: 50px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.sobre p{
+.sobre p {
     color: #FFFFFF;
     font-family: 'Lexend', sans-serif;
     font-size: 30px;
@@ -69,7 +69,7 @@
     width: 1616px;
 }
 
-.sobre button{
+.sobre button {
     width: 200px;
     height: 60px;
     background: #046ACB;
@@ -132,7 +132,7 @@
 }
 
 .desenvolvedores h3 {
-    margin: 40px 0 90px 0 ;
+    margin: 40px 0 90px 0;
     text-align: center;
     font-size: 60px;
 }
@@ -181,4 +181,51 @@
     text-align: center;
     margin-top: 10px;
     line-height: 68px;
+}
+
+.pop-up {
+    display: none;
+    position: fixed;
+    width: 1500px;
+    height: 700px;
+    background: #2e2e2e;
+    mix-blend-mode: normal;
+    border-radius: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow:200px 200px 200px 500px rgba(0,0,0,0.4)
+}
+
+.pop-up p {
+    color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    width: 1166px;
+    line-height: 25px;
+    margin-left: 150px;
+}
+
+.pop-up button {
+    width: 180px;
+    height: 50px;
+    background: #046ACB;
+    border-radius: 60px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+    margin: -30px 650px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.pop-up.visible {
+    display: block;
 }

@@ -11,6 +11,7 @@ tag: "documentos"
 | 13/05/2023 |  0.2   | Revisão do documento + Adição/correção de informações | [Joel Soares](https://github.com/JoelSRangel)|
 | 15/05/2023 |  0.3   | Completando a tabela de "Equipe de Desenvolvimento e Gestão do Projeto" | [Joel Soares](https://github.com/JoelSRangel)|
 | 18/05/2023 |  0.4   | Completanto as informações da seção 2.2 | [Joel Soares](https://github.com/JoelSRangel)|
+| 21/06/2023 |  0.5   | Corrigindo dados fora de validade | [Joel Soares](https://github.com/JoelSRangel)|
 
 
 
@@ -104,7 +105,7 @@ O observatório de energia foi pensado a partir de elementos apresentados em htt
 
 ### 4.1 Perspectiva do Produto
 
-O objetivo do produto é apresentar dados abertos da ANEEL, mapeando o perfil socio econômico do DF por RA, o perfil do trabalhador do DF por RA, perfil da população que utiliza serviços de saúde por RA e o perfil da população que tem acesso a internet por RA em formato de gráfico dashboard para o usuário, facilitando o acesso a esses dados.
+O objetivo do produto é apresentar dados do PDAD, mapeando o perfil socio econômico do DF por RA, o perfil do trabalhador do DF por RA, perfil da população que utiliza serviços de saúde por RA e o perfil da população que tem acesso a internet por RA em formato de gráfico dashboard para o usuário, facilitando o acesso a esses dados.
 
 ### 4.2 Resumo das capacidades
 
@@ -114,7 +115,7 @@ O produto será capaz de atender as necessidades dos usuários que buscam acesso
 
 ### 5.1 Informação
 
-O observatório contará com um banco de dados de dados abertos da ANEEL que será representado ao usuário através de gráficos.
+O observatório contará com um banco de dados obtidos através do PDAD que será representado ao usuário através de gráficos.
 
 ### 5.2 Interação
 

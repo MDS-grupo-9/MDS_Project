@@ -4,6 +4,7 @@
 | :--------: | :----: | :----------:                      | :---------------: |
 | 16/05/2023 |  0.1   | Criação do documento do frontend  | [Davi Pierre](https://github.com/DaviPierre)|
 | 18/05/2023 |  0.2   | Revisão + correção ortográfica    | [Lucas Soares](https://github.com/soaresrlucas)|
+| 21/06/2023 |  0.3   | Renomeando o arquivo              | [Joel Soares](https://github.com/JoelSRangel)|
 
 ## Protótipo do Frontend
 

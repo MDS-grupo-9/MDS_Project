@@ -41,7 +41,7 @@ O projeto está sendo desenvolvido por alunos da UnB-FGA, na disciplina MDS.
 |PDAD|Pesquisa Distrital por Amostra de Domicílios|
   
 ## 3. Arquitetura
-![Screenshot-Arquitetura](~/diagrama_observatorio.png)
+![Screenshot-Arquitetura](diagrama_observatorio.png)
 >Representação arquitetural do site
 
 Ao entrar no site Observatório de Energia, o usuário passará por um ciclo que envolve várias etapas. A seguir o passo a passo, destacando as tecnologias utilizadas e a função delas em cada etapa:

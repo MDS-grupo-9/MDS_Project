@@ -21,13 +21,14 @@ Para este projeto, alguns dados são coletados e analisados para gerar os gráfi
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white">
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Matplotlib-4285F4.svg?style=for-the-badge&logo=MatPlotLib&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/Chart.js-FF6384.svg?style=for-the-badge&logo=chart.js&logoColor=white">
+  <img src="https://img.shields.io/badge/ReactJS-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white">
+
 </p>
-Pandas
-Matplotlib
+E também foi utilizado o danfoJS.
 
 ## Como Contribuir
 

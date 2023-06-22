@@ -18,6 +18,7 @@ Este documento foi dividido em tópicos para faciliar a leitura e detalhar as ca
   | 02/05/2023 | 0.1 | Protótipo de arquitetura | [Yves Pimenta](https://github.com/Yvestxt) |
   | 18/05/2023 | 0.2 | Correção e detalhamento da arquitetura | [Yves Pimenta](https://github.com/Yvestxt) |
   | 18/05/2023 | 0.3 | Revisão + correção ortográfica | [Lucas Soares](https://github.com/soaresrlucas) |
+  | 21/06/2023 | 0.4 | Reescritura do documento, adaptando as tecnologias | [Joel Soares](https://github.com/JoelSRangel) |
   
 ## 2. Introdução
 ### Objetivo
@@ -40,7 +41,7 @@ O projeto está sendo desenvolvido por alunos da UnB-FGA, na disciplina MDS.
 |PDAD|Pesquisa Distrital por Amostra de Domicílios|
   
 ## 3. Arquitetura
-![Screenshot-Arquitetura](https://github.com/MDS-grupo-9/MDS_Project/assets/73966483/70366769-09a6-412f-b4ee-e5c78d3401a5)
+![Screenshot-Arquitetura](~/diagrama_observatorio.png)
 >Representação arquitetural do site
 
 Ao entrar no site Observatório de Energia, o usuário passará por um ciclo que envolve várias etapas. A seguir o passo a passo, destacando as tecnologias utilizadas e a função delas em cada etapa:
@@ -60,28 +61,35 @@ O backend do Observatório de Energia é responsável por coletar os dados públ
 >Observação: Os dados utilizados não requerem atualização constante e são relativamente leves, portanto são carregados em memória e podem ser manualmente atualizados, caso haja demanda. 
   
 ## 4. Tecnologias
-### Streamlit
+### ReactJS
 
-- É uma biblioteca de código aberto em Python que permite a criação rápida de aplicativos web interativos e responsivos.
+- O ReactJS é uma biblioteca JavaScript de código aberto que permite aos desenvolvedores criar interfaces de usuário eficientes e reutilizáveis, facilitando o desenvolvimento de aplicativos web modernos e responsivos.
 - Sua principal função, neste projeto, é fornecer uma interface de usuário interativa para os usuários explorarem e visualizarem o site e os dados relacionados ao consumo de energia no Distrito Federal.
-- Possui recursos embutidos para a exibição de gráficos gerados pelo Matplotlib e outros pacotes de visualização, facilitando a visualização dos dados de forma clara e atraente.  
 
-### Pandas
+### HTML
 
-- É uma biblioteca de código aberto em Python amplamente utilizada para manipulação e análise de dados tabulares.
+- HTML (HyperText Markup Language) é a linguagem de marcação padrão que permite que os desenvolvedores estruturem o conteúdo de uma página web usando uma variedade de elementos, como cabeçalhos, parágrafos, listas, imagens e links.
+
+### CSS
+
+- CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a aparência e o layout de elementos em uma página web.
+- O CSS permite que os desenvolvedores personalizem a aparência dos elementos HTML, controlando propriedades como cor, tamanho, fonte e espaçamento.
+
+### DanfoJS
+
+- Danfo.js é uma biblioteca JavaScript de código aberto que oferece funcionalidades para manipulação e análise de dados tabulares de forma intuitiva e eficiente.
 - Sua principal função, neste projeto, é processar e analisar os dados coletados do GDF sobre o consumo de energia no Distrito Federal.
-- Possibilita realizar operações avançadas nos dados, como selecionar colunas específicas, filtrar registros com base em condições, agrupar dados por categorias, calcular estatísticas descritivas e muito mais.
-- Extrai informações que permitem extrair insights valiosos dos dados e fornecer informações relevantes aos usuários.
+- A biblioteca fornece uma variedade de métodos e funções para selecionar, filtrar, ordenar e agrupar dados, facilitando a realização de tarefas comuns de manipulação de dados.
+- Permite calcular estatísticas descritivas, aplicar funções matemáticas, realizar agregações, lidar com valores ausentes e criar visualizações simples diretamente da biblioteca.
   
-### Matplotlib
+### ChartJS
 
-- É uma biblioteca de visualização de dados em Python amplamente utilizada para criar gráficos e visualizações de alta qualidade.
-- Sua principal função, neste projeto, é gerar os gráficos relacionados ao consumo de energia no Distrito Federal, com base nos dados analisados pela biblioteca Pandas.
-- Também suporta a criação de gráficos interativos e a incorporação de gráficos em aplicativos web ou interfaces de usuário. Isso pode ser especialmente útil quando combinado ao Streamlit.
+- Chart.js é uma biblioteca JavaScript de código aberto que permite a criação de gráficos interativos e responsivos em páginas web.
+- Sua principal função, neste projeto, é gerar os gráficos relacionados ao consumo de energia no Distrito Federal, com base nos dados analisados pela biblioteca DandoJS.
   
-### Python
+### JavaScript
 
-  - Linguagem de programação de alto nível, interpretada e de propósito geral.
+  - JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada no desenvolvimento web.
   - Sua principal função, neste projeto, é de implementação de todo o sistema.
   
 ## 5. Metas e Restrições

@@ -35,8 +35,10 @@ header {
 }
 
 nav {
+    position: relative;
     grid-column-start: 3;
     grid-row-start: 2;
+    margin-top: -5px;
 }
 
 nav ul {
@@ -47,6 +49,16 @@ nav ul {
 
 nav a {
     color: var(--preto-principal);
+    padding: 16px 40px;
     text-decoration: none;
     font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    margin: 0;
+}
+
+nav a:hover {
+    background-color: rgba(89, 178, 131, 0.5);
+    padding: 16px 40px;
+    margin-top: -10px;
 }

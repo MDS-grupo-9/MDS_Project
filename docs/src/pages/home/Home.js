@@ -13,6 +13,7 @@ import 'aos/dist/aos.css';
 function Home() {
     AOS.init();
     const [buttonPopup, setButtonPopup] = useState(false);
+
     return(
         <>
             <main>
@@ -46,27 +47,53 @@ function Home() {
             
                 <div className="desenvolvedores" data-aos="fade-up">
                     <h3>Desenvolvedores:</h3>
+                    <div class="imagens">
                     <div>
-                        <a href="https://github.com/JoelSRangel"><img src="https://avatars.githubusercontent.com/u/98978800?v=4" data-name="Joel Soares Rangel"/></a>
-                        <a href="https://github.com/soaresrlucas"><img
-                            src="https://avatars.githubusercontent.com/u/89469881?s=400&u=39c9984d990a31e638e33157ee4ec2ca01ce8a4a&v=4" data-name="Lucas Soares Rodrigues"/></a>
-                        <a href="https://github.com/DaviPierre"><img src="https://avatars.githubusercontent.com/u/73446334?v=4" data-name="Davi Gonçalves Akegawa Pierre"/></a>
-                        <a href="https://github.com/Yvestxt"><img src="https://avatars.githubusercontent.com/u/73966483?v=4" data-name="Yves Gustavo Ribeiro Pimenta"/></a>
-                        <a href="https://github.com/Ninja-Haiyai"><img src="https://avatars.githubusercontent.com/u/73038704?v=4" data-name="Matheus Barros do Nascimento"/></a>
+                        <a href="https://github.com/JoelSRangel"><img 
+                            src="https://avatars.githubusercontent.com/u/98978800?v=4"
+                            data-name="Joel Soares Rangel"/></a>
+                        <span>Joel Soares</span>
                     </div>
+                    <div>
+                        <a href="https://github.com/soaresrlucas"><img
+                            src="https://avatars.githubusercontent.com/u/89469881?s=400&u=39c9984d990a31e638e33157ee4ec2ca01ce8a4a&v=4"
+                            data-name="Lucas Soares Rodrigues"/></a>
+                        <span>Lucas Soares</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/DaviPierre"><img 
+                            src="https://avatars.githubusercontent.com/u/73446334?v=4" 
+                            data-name="Davi Gonçalves Akegawa Pierre"/></a>
+                        <span>Davi Pierre</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Yvestxt"><img 
+                            src="https://avatars.githubusercontent.com/u/73966483?v=4" 
+                            data-name="Yves Gustavo Ribeiro Pimenta"/></a>
+                        <span>Yves Ribeiro Pimenta</span>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Ninja-Haiyai"><img 
+                            src="https://avatars.githubusercontent.com/u/73038704?v=4" 
+                            data-name="Matheus Barros do Nascimento"/></a>
+                        <span>Matheus Barros </span>
+                    </div>
+                </div>
                 </div>
 
                 <div id="prof" className="prof" data-aos="fade-up">
                     <h3>Esse projeto se fez possível graças à colaboração das professoras:</h3>
                     <div>
                         <img src={Paula_foto}/>
-                        <p>Paula Meyer Soares </p>
+                        <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4745835T3&tokenCaptchar=03AAYGu2Q8qUr6WUQRmmIT-ndoYJLTSxzOxDHjnIHAZNsdNLpcSeHHLiX-oiF9Bgjf0B1oA5JTEzqRxSfwNW9pqCkMSkdXcSmOafVgnKTaRNzvkYFUB4d6tlb3pBTpACPUEcBYiXnZTs7gIJ3qt_MqFpD_RZvPryb6M1jk8Hv-PgHHsDqpk63cjjsd3H9SC_dvA_fBdZUnYtWiYxkSozrrUFqWD83GQQ0IRuNmhY11dIhR5K_KtzDZwbpytt2b6FVND7TsBTKOMLtC-KgiHlf5qTH_2GlsxqMmELH7iN0WWEdmgGGrT3SLLLPtE5PvaTg00QCB4wut_Vfe74BU8wcJNv_cPR0IxAMmxW1CTvBVfSE3fMt7nqPt8IvtYJWpqdp-FcGf25BA2tjIA5DPSPZbOkYA5Hlq8poN6TvqkIHp2GUWJJmRE1xIcgGfqnfsVLHr7B08vGhjH5grrPV1WBJQ-UL-TWWKQQHo8zR6DEj9M3nMMBWPnchllna1XTHL0GzFFdNOkHQArzgt_FXhdm1TxVhkrLvhFAlqX75vt1uSdNk1oxgt52SXt2y8LMp7UYi452Gsc5XVgQqaurgx1oU_vXs3uv2108ghOu9PwVKN9h2EcwX5b_TAM6lQqNyh6C7PkJmSqjE1q9cJ"><p>Paula Meyer Soares </p></a>
                         <img src={Carla_foto}/>
-                        <p>Carla Silva Rocha Aguiar </p>
+                        <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4735688Z5&tokenCaptchar=03AAYGu2TlDjtNdpCd7sRQdVYMrAjxPCfIXlHfZ_T1gOybVPuC55CGtMgQ9TA5EGjAhLtoTCuyPrMijkPEmBZTZf7ptAVmErHzLv0ERcuazjnwZPsyVCmSQBYaLXkBqpLs7SCVKGJ4VLl_gpnTgmc68vEz0LAsVcAFIGyg9n0447-bI7SDbTxR1zVUy86meZH514U6mVn8e3wCa-eyEt1Z5ImBZYGevBMWCHUrO4nKh2JbDMWMrX4olhD4WlzTR_7y1hpYWqJFq256RtU8EM-bqiIgg282u2vFOtj7ss4NWWaxHqEEE0u1iTRopNVbxvD7SQV_WDO-EC9JVgc6V4wDz7Rbe0ahye80w3S_WtDq_vXq4UkVufxnNceQX3aEnrExIQCIMStB2cP4SQ9MOjBr7-99Luy022Fnv-c1fRVPpjQMtOB3SvnPrslswi2IgnpkisnZ2MOqPLSR5V83dnb0AsF0N8TTt-ytBXPeNm_NtqU46EAW-MMzvuYJ3nhhu4a80iDruZRZTDwi9YJvV9gGkKiWVkOuNngp9cezkDUg-a7FzMZwZw_AP0e1jeFBR1I-YOjT0b9N4_ilIF1e3uWtBd0jYpaEQ-7tPxHWDAD5pxZ0iH6K9JVEhXhJTdmlLjw-Ht-rbqCxKOVN"><p>Carla Silva Rocha Aguiar </p></a>
                     </div>
                 </div>
+
                 <footer>
                 </footer>
+
             </main>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
             <p>O Brasil é um país de dimensões continentais e o Distrito Federal constitui uma das unidades da federação

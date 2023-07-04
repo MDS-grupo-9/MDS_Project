@@ -154,7 +154,13 @@
     width: 200px;
     height: 200px;
     padding-right: 74px;
+    transition: filter 0.3s ease, transform 0.3s ease;
 }
+
+.desenvolvedores img:hover {
+    filter: brightness(1.08);
+    transform: translateY(-30px);
+  }
 
 .prof {
     display: grid;

@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(89, 178, 131, 0.5);
+    background-color: rgba(4, 106, 203, 0.6);
     padding: 16px 40px;
     margin-top: -10px;
 }

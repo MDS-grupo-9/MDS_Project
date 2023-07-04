@@ -7,8 +7,11 @@ import { useState } from 'react';
 import Fga_foto from '../../images/fga_foto.png'
 import Paula_foto from '../../images/paula_foto.jpg'
 import Carla_foto from '../../images/carla_foto.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
+    AOS.init();
     const [buttonPopup, setButtonPopup] = useState(false);
     return(
         <>
@@ -16,24 +19,24 @@ function Home() {
                 <Header/>
                 <div id="body"></div>
                 <section className="titulo">
-                <div className="nome_projeto">
+                <div className="nome_projeto" data-aos="zoom-in">
                     <h1>Observatório de Energia</h1>
                     <h2>Analisando dados de energia desde 2023</h2>
                 </div>
                 </section>
                 <div className="sobre">
-                    <h3>Sobre o Observatório</h3>
-                    <p> &ensp; O Observatório de Energia é um projeto realizado por estudantes da Universidade de Brasília que visa mapear o consumo de energia dentro do Distrito Federeal em cada uma de suas Regiões Administrativas. Nestre tabalho, estará sendo utilizado uma base de dados obtidos pela Pesquisa Distrital por Amostra de Domicílios (PDAD), que está disponibilizada pela CODEPLAN.<br/>
+                    <h3 data-aos="fade-right">Sobre o Observatório</h3>
+                    <p data-aos="fade-right"> &ensp; O Observatório de Energia é um projeto realizado por estudantes da Universidade de Brasília que visa mapear o consumo de energia dentro do Distrito Federeal em cada uma de suas Regiões Administrativas. Nestre tabalho, estará sendo utilizado uma base de dados obtidos pela Pesquisa Distrital por Amostra de Domicílios (PDAD), que está disponibilizada pela CODEPLAN.<br/>
                     <br/>
                     &ensp; O objetivo de nosso projeto é fazer análises detalhadas e apresentar os dados por meio de gráficos, mapas e tabelas interativas, para que entidades públicas e pessoas físicas que possuem interesse neste estudo possam utilizar da informação disponibilizada para seus próprios fins.
                     </p>
-                    <button onClick={() => setButtonPopup(true)}>Saiba mais</button>
+                    <button onClick={() => setButtonPopup(true)} data-aos="zoom-in">Saiba mais</button>
                     
                 </div>
                 <div id="quem_somos" className="quem_somos">
-                    <h3>Quem somos:</h3>
-                    <img src={Fga_foto} alt="foto FGA" width="620px"/>
-                    <p>Nós somos estudantes de Engenharia de Software da Faculdade do Gama da Universidade de Brasília (UnB - FGA) cursando a disciplina Métodos de Desenvolvimento de Software.<br/>
+                    <h3 data-aos="fade-left">Quem somos:</h3>
+                    <img src={Fga_foto} alt="foto FGA" width="620px" data-aos="fade-left"/>
+                    <p data-aos="fade-left">Nós somos estudantes de Engenharia de Software da Faculdade do Gama da Universidade de Brasília (UnB - FGA) cursando a disciplina Métodos de Desenvolvimento de Software.<br/>
                         <br/>
                         Realizamos a confecção desse projeto em conjunto com a professora Carla Silva Rocha Aguiar e a professora e economista Paula Meyer Soares, que se responsabilizaram em fornecer avaliação e suporte ao trabalho.<br/>
                         <br/>
@@ -41,18 +44,19 @@ function Home() {
                     <a href="https://fga.unb.br/guia-fga/sobre">Saiba mais sobre a FGA</a>
                 </div>
             
-                <div className="desenvolvedores">
+                <div className="desenvolvedores" data-aos="fade-up">
                     <h3>Desenvolvedores:</h3>
                     <div>
-                        <img src="https://avatars.githubusercontent.com/u/98978800?v=4"/>
-                        <img
-                            src="https://avatars.githubusercontent.com/u/89469881?s=400&u=39c9984d990a31e638e33157ee4ec2ca01ce8a4a&v=4"/>
-                        <img src="https://avatars.githubusercontent.com/u/73446334?v=4"/>
-                        <img src="https://avatars.githubusercontent.com/u/73966483?v=4"/>
-                        <img src="https://avatars.githubusercontent.com/u/73038704?v=4"/>
+                        <a href="https://github.com/JoelSRangel"><img src="https://avatars.githubusercontent.com/u/98978800?v=4" data-name="Joel Soares Rangel"/></a>
+                        <a href="https://github.com/soaresrlucas"><img
+                            src="https://avatars.githubusercontent.com/u/89469881?s=400&u=39c9984d990a31e638e33157ee4ec2ca01ce8a4a&v=4" data-name="Lucas Soares Rodrigues"/></a>
+                        <a href="https://github.com/DaviPierre"><img src="https://avatars.githubusercontent.com/u/73446334?v=4" data-name="Davi Gonçalves Akegawa Pierre"/></a>
+                        <a href="https://github.com/Yvestxt"><img src="https://avatars.githubusercontent.com/u/73966483?v=4" data-name="Yves Gustavo Ribeiro Pimenta"/></a>
+                        <a href="https://github.com/Ninja-Haiyai"><img src="https://avatars.githubusercontent.com/u/73038704?v=4" data-name="Matheus Barros do Nascimento"/></a>
                     </div>
                 </div>
-                <div id="prof" className="prof">
+
+                <div id="prof" className="prof" data-aos="fade-up">
                     <h3>Esse projeto se fez possível graças à colaboração das professoras:</h3>
                     <div>
                         <img src={Paula_foto}/>

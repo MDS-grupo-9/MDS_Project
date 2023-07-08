@@ -12,59 +12,7 @@
 <body>
   <canvas id="grafico1" style="width: 500px; height: 500px;"></canvas>
 
-  <script>
-    const ctx = document.getElementById('grafico1').getContext('2d');
-    const filePath = './inventario-bens-duraveis.xlsx'; // Coloque o caminho do arquivo aqui
-
-    function handleFile(filePath) {
-      fetch(filePath)
-        .then(response => response.arrayBuffer())
-        .then(data => {
-          const workbook = XLSX.read(data, { type: 'array' });
-
-          const worksheet = workbook.Sheets['bens-duraveis'];
-
-          // Converter a planilha em uma matriz de objetos JSON
-          const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
-
-          // Obter os valores das colunas A, D e E
-          const columnA = jsonData.slice(1).map(row => row[0]);
-          const columnD = jsonData.slice(1).map(row => row[5]);
-          const columnE = jsonData.slice(1).map(row => row[6]);
-
-          new Chart(ctx, {
-            type: 'bar',
-            data: {
-              labels: columnA,
-              datasets: [
-                {
-                  label: 'Sim',
-                  data: columnD,
-                  borderWidth: 1
-                },
-                {
-                  label: 'Não',
-                  data: columnE,
-                  borderWidth: 1
-                }
-              ]
-            },
-            options: {
-              scales: {
-                y: {
-                  beginAtZero: true
-                }
-              }
-            }
-          });
-        })
-        .catch(error => {
-          console.error('Ocorreu um erro ao carregar o arquivo:', error);
-        });
-    }
-
-    handleFile(filePath);
-  </script>
+  <script src = "./trabalho.js"></script>
 
 </body>
 

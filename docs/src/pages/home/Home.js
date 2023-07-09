@@ -47,7 +47,7 @@ function Home() {
             
                 <div className="desenvolvedores" data-aos="fade-up">
                     <h3>Desenvolvedores:</h3>
-                    <div class="imagens">
+                    <div className="imagens">
                     <div>
                         <a href="https://github.com/JoelSRangel"><img 
                             src="https://avatars.githubusercontent.com/u/98978800?v=4"

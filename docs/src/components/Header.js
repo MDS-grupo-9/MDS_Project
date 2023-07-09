@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return(
         <header>
-            <div class="logo">
+            <div className="logo">
                 <Link onClick={() => window.location.assign("/#body")}>
                     <img src={unb_logo} alt="logo UnB" class="unb_logo" width={150}/>
                     <img src={logo} alt="logo observatório de energia" width={45}/>

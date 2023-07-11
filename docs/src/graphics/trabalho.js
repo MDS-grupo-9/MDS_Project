@@ -1,8 +1,19 @@
+import * as XLSX from 'xlsx';
+import Chart from 'chart.js/auto';
+
 //CÓDIGO EM JS
 const ctx = document.getElementById('grafico1').getContext('2d');
-const filePath = './inventario-bens-duraveis.xlsx';
+const filePath = '/inventario-bens-duraveis.xlsx'; // Coloque o caminho do arquivo aqui
+let chart = null;
+let valor = 0;
 
-function handleFile(filePath) {
+function handleFile(selectedValue) {
+
+  if (chart) {
+    // Destrói o gráfico anterior se existir
+    chart.destroy();
+  }
+
   fetch(filePath)
     .then(response => response.arrayBuffer())
     .then(data => {
@@ -15,10 +26,10 @@ function handleFile(filePath) {
 
       // Obter os valores das colunas A, D e E
       const columnA = jsonData.slice(1).map(row => row[0]);
-      const columnD = jsonData.slice(1).map(row => row[5]);
-      const columnE = jsonData.slice(1).map(row => row[6]);
+      const columnD = jsonData.slice(1).map(row => row[selectedValue * 2 - 1]);
+      const columnE = jsonData.slice(1).map(row => row[selectedValue * 2]);
 
-      new Chart(ctx, {
+      chart = new Chart(ctx, {
         type: 'bar',
         data: {
           labels: columnA,
@@ -36,6 +47,9 @@ function handleFile(filePath) {
           ]
         },
         options: {
+          responsive: true,
+          aspectRatio: 2.2,
+          devicePixelRatio: 1,
           scales: {
             y: {
               beginAtZero: true
@@ -44,13 +58,16 @@ function handleFile(filePath) {
         }
       });
     })
-  if (getError()) {
+  .catch(error => {
+    console.error('Ocorreu um erro ao carregar o arquivo:', error);
+    valor = 1;
+  });
+  /*if (getError()) {
     valor = 1;
   } else {
     valor = 0;
-  }
+  }*/
 }
 
-handleFile(filePath);
 
-module.exports = handleFile;
+export { handleFile };

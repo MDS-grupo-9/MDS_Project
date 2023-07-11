@@ -1,6 +1,6 @@
 //CÓDIGO EM JS
 const ctx = document.getElementById('grafico1').getContext('2d');
-const filePath = './inventario-bens-duraveis.xlsx'; // Coloque o caminho do arquivo aqui
+const filePath = './inventario-bens-duraveis.xlsx';
 
 function handleFile(filePath) {
   fetch(filePath)
@@ -44,9 +44,13 @@ function handleFile(filePath) {
         }
       });
     })
-    .catch(error => {
-      console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    });
+  if (getError()) {
+    valor = 1;
+  } else {
+    valor = 0;
+  }
 }
 
 handleFile(filePath);
+
+module.exports = handleFile;

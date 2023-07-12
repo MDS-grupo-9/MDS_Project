@@ -5,9 +5,9 @@ const filePath = './inventario-bens-duraveis.xlsx';
 function handleFile(filePath) {
   fetch(filePath)
     .then(response => response.arrayBuffer())
+    
     .then(data => {
       const workbook = XLSX.read(data, { type: 'array' });
-
       const worksheet = workbook.Sheets['bens-duraveis'];
 
       // Converter a planilha em uma matriz de objetos JSON

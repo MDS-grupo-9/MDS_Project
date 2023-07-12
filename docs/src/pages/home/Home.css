@@ -4,18 +4,20 @@
 }
 
 .titulo {
-    min-width: 1200px;
+    min-width: 100%;
     min-height: 212px;
     margin: 393px auto 475px auto;
+    position: relative;
 }
 
 .titulo:before {
     content: ' ';
     display: block;
     position: absolute;
-    left: 360px;
-    top: 200px;
-    width: 1200px;
+    left: 50%;
+    top: -200px;
+    max-width: 1200px;
+    width: 100%;
     height: 600px;
     z-index: 1;
     opacity: 0.6;
@@ -23,6 +25,7 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
+    transform: translateX(-50%);
 }
 
 .titulo .nome_projeto {
@@ -36,18 +39,19 @@
 }
 
 .titulo .nome_projeto h1 {
-    font-size: 70px;
+    font-size: 4.4rem;
     text-align: center;
-    line-height: 88px;
+    line-height: 5.5rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .titulo .nome_projeto h2 {
-    width: 710px;
+    max-width: 710px;
+    width: 80%;
     font-family: 'Lexend', sans-serif;
-    font-size: 50px;
+    font-size: 3.12rem;
     text-align: center;
-    line-height: 62px;
+    line-height: 3.72rem;
     margin:  0 auto ;
 }
 
@@ -56,22 +60,23 @@
     flex-direction: column;
     background-color: #3d3d3dcc;
     
-    padding: 100px 150px;
+    padding: 5% 10%;
 }
 
 .sobre h3 {
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 3.12rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sobre p {
     color: #FFFFFF;
     font-family: 'Lexend', sans-serif;
-    font-size: 30px;
+    font-size: 1.9rem;
     line-height: 38px;
-    margin: 30px 0;
-    width: 1616px;
+    margin: 1.9rem 0;
+    max-width: 1620px;
+    width: 100%;
 }
 
 .sobre button {
@@ -96,31 +101,38 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr auto;
-    padding: 50px 160px 0 160px;
+    padding: 3.125rem 10rem 0 10rem;
     background: #D8D8D8;
 }
 
 .quem_somos h3 {
-    font-size: 60px;
+    justify-self: center;
+    font-size: 3.75rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .quem_somos img {
+    justify-self: center;
+    max-width: 100%;
+    min-height: 200px;
     grid-row-start: 2;
 }
 
 .quem_somos p {
+    justify-self: center;
     grid-row-start: 2;
     font-family: 'Lexend', sans-serif;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
     height: fit-content;
-    width: 700px;
+    width: 100%;
+    max-width: 43.75rem;
     margin: 0;
 }
 
 .quem_somos a {
+    justify-self: center;
     width: fit-content;
     height: fit-content;
     grid-row-start: 3;
@@ -128,8 +140,8 @@
     margin: auto;
     font-family: 'Lexend', sans-serif;
     text-align: center;
-    font-size: 30px;
-    margin: 90px auto 50px auto;
+    font-size: 1.875rem;
+    margin: 5.625rem auto 3.125rem auto;
 }
 
 .desenvolvedores {
@@ -144,17 +156,52 @@
     font-size: 60px;
 }
 
-.desenvolvedores div {
-    align-self: center;
-    margin: 0 auto 300px auto;
+.desenvolvedores .imagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.desenvolvedores img {
+.desenvolvedores .imagens div {
+    margin: 0 5px 300px 5px;
+    position: relative;
+}
+
+.desenvolvedores .imagens img {
     align-self: center;
     width: 200px;
     height: 200px;
     padding-right: 74px;
+    transition: filter 0.3s ease, transform 0.3s ease;
 }
+
+.desenvolvedores .imagens img:hover {
+    filter: brightness(1.08);
+    transform: translateY(-30px);
+}
+
+.desenvolvedores .imagens div span {
+    position: absolute;
+    top: 100%;
+    left: 36.5%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+}
+
+.desenvolvedores .imagens div:hover span {
+    opacity: 1;
+}
+
+.desenvolvedores .imagens div span {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    top: 130%;
+}
+
 
 .prof {
     display: grid;

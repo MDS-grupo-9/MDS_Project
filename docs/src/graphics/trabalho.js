@@ -3,7 +3,7 @@ import Chart from 'chart.js/auto';
 
 //CÓDIGO EM JS
 const ctx = document.getElementById('grafico1').getContext('2d');
-const filePath = '/Pesquisa_Distrital_2021_DF.xlsx'; // Coloque o caminho do arquivo aqui
+const filePath = 'Pesquisa_Distrital_2021_DF.xlsx'; // Coloque o caminho do arquivo aqui
 let chart = null;
 let valor = 0;
 

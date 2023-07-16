@@ -15,22 +15,29 @@ function BancoDados() {
 
   useEffect(() => {
     const ctx = document.getElementById("grafico1").getContext("2d");
-    const filePath = "/Pesquisa_Distrital_2021_DF.xlsx";
+    const filePath = "Pesquisa_Distrital_2021_DF.xlsx";
     gp.handleFile(filePath, ctx);
     loadOptions(filePath);
   }, []);
 
   const loadOptions = (filePath) => {
+    console.log("Carregando arquivo:", filePath);
     fetch(filePath)
       .then((response) => response.arrayBuffer())
       .then((data) => {
+        console.log("Arquivo carregado com sucesso!");
+  
         const workbook = XLSX.read(data, { type: "array" });
         const worksheet = workbook.Sheets[workbook.SheetNames[0]];
-
+        console.log(worksheet)
+        
         // Converter a primeira coluna da primeira tabela em uma matriz de objetos JSON
         const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+        console.log(jsonData)
         const columnA = jsonData.slice(1).map((row) => row[0]);
-
+  
+        console.log("Opções carregadas:", columnA);
+  
         setOptions(columnA);
       })
       .catch((error) => {
@@ -132,7 +139,7 @@ function BancoDados() {
       <section className="dados_container">
         <h1>Banco de Dados</h1>
         <select id="grafico" onChange={handleChange}>
-          {options.map((option, index) => (
+          {options.slice(0, 17).map((option, index) => (
             <option key={index} value={index + 1}>
               {option}
             </option>

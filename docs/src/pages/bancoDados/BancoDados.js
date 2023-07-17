@@ -12,6 +12,7 @@ function BancoDados() {
   const [showNewSelect2, setShowNewSelect2] = useState(false);
   const [showNewSelect3, setShowNewSelect3] = useState(false);
   const [showNewSelect4, setShowNewSelect4] = useState(false);
+  const ctx = document.getElementById("grafico1").getContext("2d");
 
   useEffect(() => {
     const ctx = document.getElementById("grafico1").getContext("2d");
@@ -49,43 +50,43 @@ function BancoDados() {
     const selectedValue = event.target.value;
 
     if (selectedValue === "1"){
-        gp.handleFile2();
+        gp.handleFile2(ctx);
     }
     if (selectedValue === "2"){
-        gp.handleFile3();
+        gp.handleFile3(ctx);
     }
     if (selectedValue === "3"){
-        gp.handleFile4();
+        gp.handleFile4(ctx);
     }
     if (selectedValue === "4"){
-        gp.handleFile5();
+        gp.handleFile5(ctx);
     }
     if (selectedValue === "5"){
-        gp.handleFile6();
+        gp.handleFile6(ctx);
     }
     if (selectedValue === "6"){
-        gp.handleFile7();
+        gp.handleFile7(ctx);
     }
     if (selectedValue === "7"){
-        gp.handleFile8();
+        gp.handleFile8(ctx);
     }
     if (selectedValue === "8"){
-        gp.handleFile9();
+        gp.handleFile9(ctx);
     }
     if (selectedValue === "9"){
-        gp.handleFile10();
+        gp.handleFile10(ctx);
     }
     if (selectedValue === "10"){
-        gp.handleFile11();
+        gp.handleFile11(ctx);
     }
     if (selectedValue === "11"){
-        gp.handleFile12();
+        gp.handleFile12(ctx);
     }
     if (selectedValue === "12"){
-        gp.handleFile13();
+        gp.handleFile13(ctx);
     }
     if (selectedValue === "13"){
-        gp.handleFile14();
+        gp.handleFile14(ctx);
     }
     if (selectedValue === "14") {
         setShowNewSelect2(true);
@@ -111,25 +112,21 @@ function BancoDados() {
 
   const handleSecondSelectChange = (event) => {
     const secondSelectValue = event.target.value;
-    const ctx = document.getElementById("grafico1").getContext("2d");
     gp.handleFile(secondSelectValue, ctx);
   };
 
   const handleThirdSelectChange = (event) => {
     const thirdSelectValue = event.target.value;
-    const ctx = document.getElementById("grafico1").getContext("2d");
     gp.handleFile15(thirdSelectValue, ctx);
   };
 
   const handleFourthSelectChange = (event) => {
     const fourthSelectValue = event.target.value;
-    const ctx = document.getElementById("grafico1").getContext("2d");
     gp.handleFile16(fourthSelectValue, ctx);
   };
 
   const handleFifthSelectChange = (event) => {
     const fifthSelectValue = event.target.value;
-    const ctx = document.getElementById("grafico1").getContext("2d");
     gp.handleFile17(fifthSelectValue, ctx);
   };
 
@@ -203,7 +200,7 @@ function BancoDados() {
         )}
 
         <div>
-          <canvas id="grafico1"></canvas>
+          <canvas id="grafico1" width={2600} height={800}></canvas>
         </div>
       </section>
     </>

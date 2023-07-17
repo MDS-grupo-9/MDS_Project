@@ -2,12 +2,12 @@ import * as XLSX from 'xlsx';
 import Chart from 'chart.js/auto';
 
 //CÓDIGO EM JS
-const ctx = document.getElementById('grafico1').getContext('2d');
 const filePath = 'Pesquisa_Distrital_2021_DF.xlsx'; // Coloque o caminho do arquivo aqui
 let chart = null;
-let valor = 0;
+let valor = 0, valor2 = 0, valor3 = 0, valor4 = 0, valor5 = 0, valor6 = 0, valor7 = 0, valor8 = 0, valor9 = 0, valor10 = 0, valor11 = 0, valor12 = 0, valor13 = 0,
+valor14 = 0, valor15 = 0, valor16 = 0, valor17 = 0;
 
-function handleFile(selectedValue) {
+function handleFile(selectedValue, ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -50,7 +50,7 @@ function handleFile(selectedValue) {
         },
         options: {
           responsive: true,
-          aspectRatio: 2.2,
+          aspectRatio: 2.5,
           devicePixelRatio: 1,
           scales: {
             y: {
@@ -64,14 +64,9 @@ function handleFile(selectedValue) {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
     valor = 1;
   });
-  /*if (getError()) {
-    valor = 1;
-  } else {
-    valor = 0;
-  }*/
 }
 
-function handleFile2() {
+function handleFile2(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -132,11 +127,11 @@ function handleFile2() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor2 = 1;
   });
 }
 
-function handleFile3() {
+function handleFile3(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -197,11 +192,11 @@ function handleFile3() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor3 = 1;
   });
 }
 
-function handleFile4() {
+function handleFile4(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -262,11 +257,11 @@ function handleFile4() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor4 = 1;
   });
 }
 
-function handleFile5() {
+function handleFile5(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -345,11 +340,11 @@ function handleFile5() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor5 = 1;
   });
 }
 
-function handleFile6() {
+function handleFile6(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -440,11 +435,11 @@ function handleFile6() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor6 = 1;
   });
 }
 
-function handleFile7() {
+function handleFile7(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -523,11 +518,11 @@ function handleFile7() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor7 = 1;
   });
 }
 
-function handleFile8() {
+function handleFile8(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -588,11 +583,11 @@ function handleFile8() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor8 = 1;
   });
 }
 
-function handleFile9() {
+function handleFile9(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -653,11 +648,11 @@ function handleFile9() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor9 = 1;
   });
 }
 
-function handleFile10() {
+function handleFile10(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -760,11 +755,11 @@ function handleFile10() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor10 = 1;
   });
 }
 
-function handleFile11() {
+function handleFile11(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -855,11 +850,11 @@ function handleFile11() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor11 = 1;
   });
 }
 
-function handleFile12() {
+function handleFile12(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -968,11 +963,11 @@ function handleFile12() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor12 = 1;
   });
 }
 
-function handleFile13() {
+function handleFile13(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -1051,11 +1046,11 @@ function handleFile13() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor13 = 1;
   });
 }
 
-function handleFile14() {
+function handleFile14(ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -1134,11 +1129,11 @@ function handleFile14() {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor14 = 1;
   });
 }
 
-function handleFile15(selectedValue) {
+function handleFile15(selectedValue, ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -1193,7 +1188,7 @@ function handleFile15(selectedValue) {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor15 = 1;
   });
   /*if (getError()) {
     valor = 1;
@@ -1202,7 +1197,7 @@ function handleFile15(selectedValue) {
   }*/
 }
 
-function handleFile16(selectedValue) {
+function handleFile16(selectedValue, ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -1257,7 +1252,7 @@ function handleFile16(selectedValue) {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor16 = 1;
   });
   /*if (getError()) {
     valor = 1;
@@ -1266,7 +1261,7 @@ function handleFile16(selectedValue) {
   }*/
 }
 
-function handleFile17(selectedValue) {
+function handleFile17(selectedValue, ctx) {
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -1321,7 +1316,7 @@ function handleFile17(selectedValue) {
     })
   .catch(error => {
     console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
+    valor17 = 1;
   });
   /*if (getError()) {
     valor = 1;

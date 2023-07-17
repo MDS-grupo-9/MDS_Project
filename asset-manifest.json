@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MDS_Project/static/css/main.20bcf81b.css",
-    "main.js": "/MDS_Project/static/js/main.eab56428.js",
+    "main.js": "/MDS_Project/static/js/main.6b3087cc.js",
     "static/media/fga_foto.png": "/MDS_Project/static/media/fga_foto.58a82a3f141e89b8cdbf.png",
     "static/media/unb_logo.jpg": "/MDS_Project/static/media/unb_logo.821d8ac1ab67f3f4a975.jpg",
     "static/media/fundo_unb.png": "/MDS_Project/static/media/fundo_unb.05be3ac67cf02d7de9d5.png",
     "index.html": "/MDS_Project/index.html",
     "main.20bcf81b.css.map": "/MDS_Project/static/css/main.20bcf81b.css.map",
-    "main.eab56428.js.map": "/MDS_Project/static/js/main.eab56428.js.map"
+    "main.6b3087cc.js.map": "/MDS_Project/static/js/main.6b3087cc.js.map"
   },
   "entrypoints": [
     "static/css/main.20bcf81b.css",
-    "static/js/main.eab56428.js"
+    "static/js/main.6b3087cc.js"
   ]
 }

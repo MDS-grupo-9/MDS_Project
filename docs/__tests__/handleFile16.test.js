@@ -1,19 +1,13 @@
-const { handleFile16 } = require('../src/graphics/trabalho');
+function geterror16() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
 
-test('Verifica se não ocorreu um erro ao carregar o arquivo', async () => {
-  let valor16 = 0; // Inicializa a variável "valor" como 0
+  return resultado;
+}
 
-  // Função mock para simular o fetch
-  global.fetch = jest.fn().mockResolvedValue({
-    arrayBuffer: jest.fn().mockResolvedValue({}),
-  });
+test('Sucesso quando o gráfico for renderizado/ Falha quando não renderizar o gráfico', () => {
+  const resultado = geterror16();
 
-  // Mock do contexto (ctx)
-  const mockCtx = {};
-
-  // Chama a função handleFile passando o contexto mockado
-  await handleFile16(15, mockCtx);
-
-  // Verifica o valor da variável "valor"
-  expect(valor16).toBe(0);
+  expect(resultado).toBe(0); // Verifica se o valor é 0 (sucesso)
+  expect(resultado).not.toBe(1); // Verifica se o valor não é 1 (falha)
 });

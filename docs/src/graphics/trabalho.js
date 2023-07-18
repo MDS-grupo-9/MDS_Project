@@ -1,6 +1,9 @@
 import * as XLSX from 'xlsx';
 import Chart from 'chart.js/auto';
 
+
+
+
 //CÓDIGO EM JS
 const filePath = 'Pesquisa_Distrital_2021_DF.xlsx'; // Coloque o caminho do arquivo aqui
 let chart = null;
@@ -60,10 +63,12 @@ function handleFile(selectedValue, ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor = 1;
-  });
+  if(geterror1){
+    valor = 1
+  }
+  else{
+    valor = 0
+  }
 }
 
 function handleFile2(ctx) {
@@ -125,10 +130,12 @@ function handleFile2(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor2 = 1;
-  });
+    if(geterror2){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile3(ctx) {
@@ -190,10 +197,12 @@ function handleFile3(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor3 = 1;
-  });
+    if(geterror3){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile4(ctx) {
@@ -255,10 +264,12 @@ function handleFile4(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor4 = 1;
-  });
+    if(geterror4){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile5(ctx) {
@@ -338,10 +349,12 @@ function handleFile5(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor5 = 1;
-  });
+    if(geterror5){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile6(ctx) {
@@ -433,10 +446,12 @@ function handleFile6(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor6 = 1;
-  });
+    if(geterror6){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile7(ctx) {
@@ -516,10 +531,12 @@ function handleFile7(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor7 = 1;
-  });
+    if(geterror7){
+      valor = 1
+    }
+    else{
+      valor = 0
+    };
 }
 
 function handleFile8(ctx) {
@@ -581,10 +598,12 @@ function handleFile8(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor8 = 1;
-  });
+    if(geterror8){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile9(ctx) {
@@ -646,10 +665,12 @@ function handleFile9(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor9 = 1;
-  });
+    if(geterror9){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile10(ctx) {
@@ -753,10 +774,12 @@ function handleFile10(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor10 = 1;
-  });
+    if(geterror10){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile11(ctx) {
@@ -848,10 +871,12 @@ function handleFile11(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor11 = 1;
-  });
+    if(geterror11){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile12(ctx) {
@@ -961,10 +986,12 @@ function handleFile12(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor12 = 1;
-  });
+    if(geterror12){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile13(ctx) {
@@ -1044,10 +1071,12 @@ function handleFile13(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor13 = 1;
-  });
+    if(geterror13){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile14(ctx) {
@@ -1127,10 +1156,12 @@ function handleFile14(ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor14 = 1;
-  });
+    if(geterror14){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile15(selectedValue, ctx) {
@@ -1186,15 +1217,12 @@ function handleFile15(selectedValue, ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor15 = 1;
-  });
-  /*if (getError()) {
-    valor = 1;
-  } else {
-    valor = 0;
-  }*/
+    if(geterror15){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile16(selectedValue, ctx) {
@@ -1250,15 +1278,12 @@ function handleFile16(selectedValue, ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor16 = 1;
-  });
-  /*if (getError()) {
-    valor = 1;
-  } else {
-    valor = 0;
-  }*/
+    if(geterror16){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
 }
 
 function handleFile17(selectedValue, ctx) {
@@ -1314,15 +1339,13 @@ function handleFile17(selectedValue, ctx) {
         }
       });
     })
-  .catch(error => {
-    console.error('Ocorreu um erro ao carregar o arquivo:', error);
-    valor17 = 1;
-  });
-  /*if (getError()) {
-    valor = 1;
-  } else {
-    valor = 0;
-  }*/
+    if(geterror17){
+      valor = 1
+    }
+    else{
+      valor = 0
+    }
+
 }
 
 export { handleFile, handleFile2, handleFile3, handleFile4, handleFile5, handleFile6, handleFile7, handleFile8, handleFile9, handleFile10, handleFile11, handleFile12,

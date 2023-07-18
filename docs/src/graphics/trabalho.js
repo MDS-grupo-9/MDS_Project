@@ -1,5 +1,108 @@
 import * as XLSX from 'xlsx';
 import Chart from 'chart.js/auto';
+export function geterror1() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror2() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror3() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror4() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror5() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror6() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror7() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror8() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror9() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror10() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror11() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror12() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror13() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror14() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror15() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror16() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+export function geterror17() {
+  // Simulando a lógica que atribui um valor à variável
+  let resultado = 0;
+
+  return resultado;
+}
+
 
 
 
@@ -11,6 +114,7 @@ let valor = 0, valor2 = 0, valor3 = 0, valor4 = 0, valor5 = 0, valor6 = 0, valor
 valor14 = 0, valor15 = 0, valor16 = 0, valor17 = 0;
 
 function handleFile(selectedValue, ctx) {
+ 
 
   if (chart) {
     // Destrói o gráfico anterior se existir
@@ -131,10 +235,10 @@ function handleFile2(ctx) {
       });
     })
     if(geterror2){
-      valor = 1
+      valor2 = 1
     }
     else{
-      valor = 0
+      valor2 = 0
     }
 }
 
@@ -198,10 +302,10 @@ function handleFile3(ctx) {
       });
     })
     if(geterror3){
-      valor = 1
+      valor3 = 1
     }
     else{
-      valor = 0
+      valor3 = 0
     }
 }
 
@@ -265,10 +369,10 @@ function handleFile4(ctx) {
       });
     })
     if(geterror4){
-      valor = 1
+      valor4 = 1
     }
     else{
-      valor = 0
+      valor4 = 0
     }
 }
 
@@ -350,10 +454,10 @@ function handleFile5(ctx) {
       });
     })
     if(geterror5){
-      valor = 1
+      valor5 = 1
     }
     else{
-      valor = 0
+      valor5 = 0
     }
 }
 
@@ -447,10 +551,10 @@ function handleFile6(ctx) {
       });
     })
     if(geterror6){
-      valor = 1
+      valor6 = 1
     }
     else{
-      valor = 0
+      valor6 = 0
     }
 }
 
@@ -532,10 +636,10 @@ function handleFile7(ctx) {
       });
     })
     if(geterror7){
-      valor = 1
+      valor7 = 1
     }
     else{
-      valor = 0
+      valor7 = 0
     };
 }
 
@@ -599,10 +703,10 @@ function handleFile8(ctx) {
       });
     })
     if(geterror8){
-      valor = 1
+      valor8 = 1
     }
     else{
-      valor = 0
+      valor8 = 0
     }
 }
 
@@ -666,10 +770,10 @@ function handleFile9(ctx) {
       });
     })
     if(geterror9){
-      valor = 1
+      valor9 = 1
     }
     else{
-      valor = 0
+      valor9 = 0
     }
 }
 
@@ -775,10 +879,10 @@ function handleFile10(ctx) {
       });
     })
     if(geterror10){
-      valor = 1
+      valor10 = 1
     }
     else{
-      valor = 0
+      valor10 = 0
     }
 }
 
@@ -872,10 +976,10 @@ function handleFile11(ctx) {
       });
     })
     if(geterror11){
-      valor = 1
+      valor11 = 1
     }
     else{
-      valor = 0
+      valor11 = 0
     }
 }
 
@@ -987,10 +1091,10 @@ function handleFile12(ctx) {
       });
     })
     if(geterror12){
-      valor = 1
+      valor12 = 1
     }
     else{
-      valor = 0
+      valor12 = 0
     }
 }
 
@@ -1072,10 +1176,10 @@ function handleFile13(ctx) {
       });
     })
     if(geterror13){
-      valor = 1
+      valor13 = 1
     }
     else{
-      valor = 0
+      valor13 = 0
     }
 }
 
@@ -1157,10 +1261,10 @@ function handleFile14(ctx) {
       });
     })
     if(geterror14){
-      valor = 1
+      valor14 = 1
     }
     else{
-      valor = 0
+      valor14 = 0
     }
 }
 
@@ -1218,10 +1322,10 @@ function handleFile15(selectedValue, ctx) {
       });
     })
     if(geterror15){
-      valor = 1
+      valor15 = 1
     }
     else{
-      valor = 0
+      valor15 = 0
     }
 }
 
@@ -1279,10 +1383,10 @@ function handleFile16(selectedValue, ctx) {
       });
     })
     if(geterror16){
-      valor = 1
+      valor16 = 1
     }
     else{
-      valor = 0
+      valor16 = 0
     }
 }
 
@@ -1340,10 +1444,10 @@ function handleFile17(selectedValue, ctx) {
       });
     })
     if(geterror17){
-      valor = 1
+      valor17 = 1
     }
     else{
-      valor = 0
+      valor17 = 0
     }
 
 }

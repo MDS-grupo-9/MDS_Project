@@ -1,13 +1,13 @@
 <h1 align="center">:zap: OBSERVATÓRIO DE ECONOMIA E DE ENERGIA :zap:</h1>
 
-Este é um repositório de código aberto que contém um site desenvolvido em Python usando as bibliotecas Streamlit, Pandas e Matplotlib. O objetivo do site é fornecer informações relevantes e visualizações interativas relacionadas à economia de energia no Distrito Federal.
+Este é um repositório de código aberto que contém um site desenvolvido em JavaScript usando as bibliotecas Chart.js, React, HTML e CSS. O objetivo do site é fornecer informações relevantes e visualizações interativas relacionadas à economia de energia e o mapeamento sócio-econômico no Distrito Federal.
   
-Estes dados podem ser utilizados por profissionais e tomadores de decisão em áreas relacionadas à energia, permitindo uma melhor compreensão do cenário energético do Distrito Federal e auxiliando na formulação de políticas e estratégias.
+Estes dados podem ser utilizados por profissionais e tomadores de decisão em áreas relacionadas, permitindo uma melhor compreensão do cenário energético e social do Distrito Federal e auxiliando na formulação de políticas e estratégias.
 
 ## 💡 Funcionalidades
 
-* **Análise de Dados**: O site oferece análises detalhadas sobre o consumo de energia no Distrito Federal, utilizando dados recentes e informações relevantes sobre o setor energético.
-* **Visualizações Interativas**: Os dados são apresentados por meio de gráficos, mapas e tabelas interativas, gerados com o auxílio das bibliotecas Pandas e Matplotlib.
+* **Análise de Dados**: O site oferece análises detalhadas sobre o consumo de energia e o mapeamento sócio-ecoNõmico no Distrito Federal, utilizando dados recentes e informações relevantes sobre o setor energético.
+* **Visualizações Interativas**: Os dados são apresentados por meio de gráficos gerados com o auxílio das bibliotecas Chart.js.
 * **Conscientização**: O site ajuda a conscientizar a população sobre os impactos gerados pelos diferentes eletrodomésticos e produtos, incentivando práticas mais sustentáveis e eficientes em relação ao uso da energia
 * **Para Estudantes**: O site oferece dados e análises que podem ser úteis para estudantes que desejam compreender melhor o consumo de energia no DF, identificar tendências e padrões, e explorar o perfil socioeconômico das regiões.
 
@@ -29,6 +29,25 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 </p>
 E também foi utilizado o danfoJS.
+
+## ⚙️ Como utilizar o projeto localmente
+É possível acessar a aplicação web a partir do link: https://mds-grupo-9.github.io/MDS_Project/. Porém, caso queira rodar a aplicação em sua máquina local, é preciso seguir algumas etapas:
+
+1. Faça o clone do repositório em seu diretório local. Para isso, em seu terminal, utilize o seguinte comando:
+```
+git clone https://github.com/MDS-grupo-9/MDS_Project.git
+```
+2. Após realizar a primeira etapa com sucesso, é preciso instalar as dependências do projeto. Para isso, vá até o diretório raiz (docs) e utilize o comando:
+
+```
+npm install
+```
+3. Por fim, basta utilizar o comando abaixo para ter o código rodando localmente em sua máquina:
+
+```
+npm start
+```
+**Observação:** Para executar os comandos mencionados, é necessário ter o npm (Node Package Manager) e o git instalados em sua máquina. Certifique-se de ter essas dependências instaladas e configuradas corretamente antes de prosseguir com as etapas mencionadas acima.
 
 ## Como Contribuir
 
@@ -64,4 +83,4 @@ Para contribuir, siga as seguintes etapas:
 </table>
 
 ## Contato
-Se você tiver alguma dúvida ou sugestão sobre este projeto, entre em contato conosco pelo email {embreve@wait.com}
+Se você tiver alguma dúvida ou sugestão sobre este projeto, entre em contato conosco pelo email {joel.rangel@aluno.unb.br}

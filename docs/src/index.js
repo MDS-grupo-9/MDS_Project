@@ -8,11 +8,11 @@ import BancoDados from "./pages/bancoDados/BancoDados";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/MDS_Project/",
     element: <Home />,
   },
   {
-    path: "bancoDados",
+    path: "/MDS_Project/bancoDados",
     element: <BancoDados />
   },
 ]);
